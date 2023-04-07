@@ -21,4 +21,8 @@ def start():
     print("Welcome to the dungeon")
     time.sleep(a)
     print("Can you escape in one piece?")
-    
+
+
+    """
+    Accept username input - create function
+    """
