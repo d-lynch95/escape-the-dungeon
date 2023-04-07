@@ -10,6 +10,10 @@ a = 2
 b = 3
 c = 4
 
+def clearConsole():
+    """
+    Clears the console.
+    """
+    os.system('cls' if os.name == 'nt' else 'clear')
 
-print("hello world")
-
+print(hello world)
