@@ -48,12 +48,18 @@ def start():
         print()
         print()
         print("See you on the other side " + name)
-        
+        begin()
+
+    elif ready == "n":
+        time.sleep(b)
+        print("hmmmm")
+        print("maybe this wasn't the place for you")
+        time.sleep(a)
+        print("another time perhaps...")   
+        time.sleep(3)
+        start()     
 
 
 
-    """
-    Accept username input - create function
-    """
 
 start()
