@@ -16,4 +16,9 @@ def clearConsole():
     """
     os.system('cls' if os.name == 'nt' else 'clear')
 
-print(hello world)
+def start():
+    clearConsole()
+    print("Welcome to the dungeon")
+    time.sleep(a)
+    print("Can you escape in one piece?")
+    
