@@ -6,9 +6,9 @@ import time
 import random
 import os
 
-a = 2
-b = 3
-c = 4
+a = 1
+b = 2
+c = 3
 
 def clearConsole():
     """
@@ -21,8 +21,23 @@ def start():
     print("Welcome to the dungeon")
     time.sleep(a)
     print("Can you escape in one piece?")
+    time.sleep(a)
+    print("What is your name?")
+    time.sleep(a)
+    print("We'll need to write something on your gravestone")
+    name = input("Insert Username here: ")
+    print("Best of luck " + name)
+    print()
+    time.sleep(a)
+    print("...you'll need it")
+    print()
+    print()
+    time.sleep(a)
+    ready = input("Are you ready to begin? Y/N ")
 
 
     """
     Accept username input - create function
     """
+
+start()
