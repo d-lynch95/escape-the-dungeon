@@ -17,6 +17,10 @@ def clearConsole():
     os.system('cls' if os.name == 'nt' else 'clear')
 
 def start():
+    """
+    This is the standard introduction for all players.
+    Users will understand the purpose of the game and input their name.
+    """
     clearConsole()
     print("Welcome to the dungeon")
     time.sleep(a)
@@ -25,6 +29,7 @@ def start():
     print("What is your name?")
     time.sleep(a)
     print("We'll need to write something on your gravestone")
+    time.sleep(a)
     name = input("Insert Username here: ")
     print("Best of luck " + name)
     print()
@@ -33,7 +38,18 @@ def start():
     print()
     print()
     time.sleep(a)
-    ready = input("Are you ready to begin? Y/N ")
+    ready = input("Are you ready to begin? Y/N ").lower().strip()
+
+    if ready == "y":
+        """
+        This will start the game for the player using begin() function
+        """
+        time.sleep(a)
+        print()
+        print()
+        print("See you on the other side " + name)
+        
+
 
 
     """
