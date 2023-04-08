@@ -82,6 +82,7 @@ def begin():
     print("Your feet have been shackled together")
     time.sleep(a)
     option1 = input("What will you do? Try to 'move' or 'stay' where you are?  ").lower().strip()
+    print()
 
     if option1 == "move":
         #take player to firstMove()
@@ -91,10 +92,12 @@ def begin():
     elif option1 == "stay":
         time.sleep(a)
         print("Nothing happens")
+        print()
         print("Your eyes start to close")
-        time.sleep(a)
-        print("Your body aches as you slowly drift into a slumber")
+        print()
         time.sleep(b)
+        print("Your body aches as you slowly drift into a slumber")
+        time.sleep(c)
         begin()
 
     else:
@@ -111,11 +114,13 @@ def firstMove():
     print()
     time.sleep(a)
     print("Your shackles clink as you make your way across the room")
+    print()
     time.sleep(b)
     print("The light grows brighter")
     print()
     print()
     print("There is a torch on the wall")
+    print()
     option2a = input("Do you 'take' it or 'stay' where you are?  ").lower().strip()
 
     if option2a == 'take':
@@ -134,9 +139,62 @@ def firstMove():
         print()
         time.sleep(a)
         take()
+    else:
+        firstMove()
 
 def take():
-    print("test")
+    print()
+    print("You take the torch from it's sconce")
+    print()
+    print("You wave the torch and the room illuminates")
+    print()
+    time.sleep(a)
+    print("The dungeon is grimy and damp")
+    print("but you can only see half of it")
+    time.sleep(a)
+    print()
+    search = input("Do you want to 'search' the dungeon or 'stay' where you are?  ").lower().strip()
+    print()
 
+    if search == "search":
+        # take user to the search function
+        search()
+
+    elif search == "stay":
+        print("You stay where you are")
+        print()
+        time.sleep(a)
+        print("The torch continues to burn")
+        time.sleep(a)
+        print()
+        wait = input("Do you 'search' the room or 'wait' where you are?  ").lower().strip()
+
+        if wait == "search":
+            #take the user to the search function
+            search()
+        
+        elif wait == "wait":
+            print()
+            time.sleep(a)
+            print("You wait where you are")
+            time.sleep(a)
+            print()
+            print()
+            print("Nothing happens")
+            time.sleep(b)
+            print("The torch slowly burns out")
+            print()
+            print("You are thrust into darkness")
+            time.sleep(b)
+            print()
+            print("GAME OVER")
+            print()
+            time.sleep(c)
+            start()
+
+
+
+def search():
+    print("It's all good baybah baybah")
 
 start()
