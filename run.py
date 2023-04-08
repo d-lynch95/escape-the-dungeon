@@ -260,6 +260,7 @@ def search():
         print("potato")
 
 def keyWest(): 
+    #player will unlock the shackles from their feet in this formula
     print()
     print("You take the keys and crouch down")
     print()
@@ -292,5 +293,28 @@ def keyWest():
     print()
     time.sleep(b)
     print("It feels good to be partly free")
+    nextChoice = input("What will you do next? 'search' the room or 'rest'")
+
+    if nextChoice == 'search'
+        findChest()
+    
+    elif nextChoice == 'rest'
+        print()
+        print("You lie down on the slimy stone floor to rest")
+        time.sleep(b)
+        print()
+        print("It's the last thing you ever do")
+        print()
+        print()
+        time.sleep(b)
+        print("GAME OVER")
+        print()
+        time.sleep(c)
+        start()
+
+
+
+def findChest():
+
 
 start()
