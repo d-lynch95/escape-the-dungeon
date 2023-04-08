@@ -342,13 +342,39 @@ def findChest():
     else:
         print("Here it goes again")
 
+def investigate():
+    print()
+    time.sleep(a)
+    print("You turn around and make your way towards the noise")
+    print()
+    time.sleep(a)
+    print("You make it halway across the room")
+    print()
+    time.sleep(c)
+    print("A black barbed arrow strikes your square in the chest")
+    print()
+    time.sleep(b)
+    print("You fall to the ground")
+    time.sleep(b)
+    print()
+    print("You look at the hole int your chest as blood seeps out...")
+    print()
+    time.sleep(b)
+    print("... everything fades to black")
+    time.sleep(c)
+    print()
+    print("GAME OVER")
+    print()
+    time.sleep(c)
+    start()
+
+
+
 
 def open_chest():
     print("Open that chest up girl")
 
 
-def investigate():
-    print("What are you looking for Scoob?")
 
 
 start()
