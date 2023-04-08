@@ -154,6 +154,7 @@ def firstMove():
         firstMove()
 
 def take():
+    # this function allows the user to take the torch and decide to stay or move
     print()
     time.sleep(a)
     print("You take the torch from it's sconce")
@@ -173,6 +174,7 @@ def take():
         search()
 
     elif option3 == 'stay':
+        # this function gives players a second chance to search or wait
         print("You stay where you are")
         print()
         time.sleep(a)
@@ -186,6 +188,7 @@ def take():
             search()
         
         elif wait == 'wait':
+            # if the player chooses this option the game will end
             print()
             time.sleep(a)
             print("You wait where you are")
@@ -209,6 +212,7 @@ def take():
             take()
 
 def search():
+    # this function allows the player to search the room
     print("You shuffle across the room")
     print()
     time.sleep(a)
@@ -220,5 +224,39 @@ def search():
     time.sleep(a)
     print("You come across a set of keys on the wall")
     keys = input("Do you 'take' them or 'leave' them?  ")
+
+    if keys == 'take'
+        #take users to the keyWest function to progress the storyline
+        keyWest()
+
+    elif keys == 'leave'
+        print()
+        time.sleep(a)
+        print("You leave the keys on the wall")
+        print()
+        print()
+        print()
+        time.sleep(b)
+        print("Are you sure you don't want to take those keys?")
+        key2 = input("Do you take the keys?   Y/N ").lower().strip()
+        if key2 = 'y'
+            keyWest()
+        elif key2 = 'n'
+            print()
+            print("You leave the keys where they are")
+            time.sleep.(a)
+            print("Why would you do that?")
+            time.sleep(b)
+            print("GAME OVER")
+            time.sleep(c)
+            start()
+
+        print()
+
+
+    else
+
+def keyWest(): 
+
 
 start()
