@@ -199,6 +199,16 @@ def take():
             take()
 
 def search():
-    print("It's all good baybah baybah")
+    print("You shuffle across the room")
+    print()
+    time.sleep(a)
+    print("The torch provides an ark of light in front of you")
+    print()
+    time.sleep(a)
+    print("You reach the far wall and follow it around the near empty room")
+    print()
+    time.sleep(a)
+    print("You come across a set of keys on the wall")
+    keys = input("Do you 'take' them or 'leave' them?  ")
 
 start()
