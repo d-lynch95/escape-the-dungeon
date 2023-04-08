@@ -55,6 +55,9 @@ def start():
         begin()
 
     elif ready == "n":
+        """
+        This will restart the game if players arent ready to play
+        """
         time.sleep(b)
         print()
         print("hmmmm")
@@ -68,6 +71,9 @@ def start():
         start()  
 
 def begin():
+    """
+    This function sets the scene for the players.
+    """
     clearConsole()
     print("You wake up in a dark decrepid dungeon")
     time.sleep(a)
@@ -90,6 +96,7 @@ def begin():
         
 
     elif option1 == "stay":
+        #resets the game if the player opts to stay 
         time.sleep(a)
         print("Nothing happens")
         print()
@@ -101,9 +108,11 @@ def begin():
         begin()
 
     else:
+        # if player hits the wrong button the game resets
         begin()
 
 def firstMove():
+    # This function allows the player to move across the room
     print("You try to move")
     print()
     time.sleep(a)
@@ -125,10 +134,11 @@ def firstMove():
     option2a = input("Do you 'take' it or 'stay' where you are?  ").lower().strip()
 
     if option2a == 'take':
-        # take user to take function
+        # take user to take function to progress the story line
         take()
 
     elif option2a == 'stay':
+        # this function will take the player to the take function.
         print()
         print("You stand by the torch")
         print()
