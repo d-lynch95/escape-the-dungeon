@@ -84,18 +84,40 @@ def begin():
     option1 = input("What will you do? Try to 'move' or 'stay' where you are?  ").lower().strip()
 
     if option1 == "move":
-        print("")
-        print()
-        print("leshgo")
+        #take player to firstMove()
+        firstMove()
+        
 
     elif option1 == "stay":
-        print()
-        print()
-        print("oh no here we go")
-
+        time.sleep(a)
+        print("Nothing happens")
+        print("Your eyes start to close")
+        time.sleep(a)
+        print("Your body aches as you slowly drift into a slumber")
+        time.sleep(b)
+        begin()
 
     else:
         begin()
+
+def firstMove():
+    print("You try to move")
+    print()
+    time.sleep(a)
+    print("Your body aches but you manage to stand")
+    print()
+    time.sleep(a)
+    print("You shuffle across the floor towards the light")
+    print()
+    time.sleep(a)
+    print("Your shackles clink as you make your way across the room")
+    time.sleep(b)
+    print("The light grows brighter")
+    print()
+    print()
+    print("There is a torch on the wall")
+    option2a = input("Do you 'take' it or 'stay' where you are?  ").lower().strip()
+
 
 
 start()
