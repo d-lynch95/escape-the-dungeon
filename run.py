@@ -155,14 +155,14 @@ def take():
     print("but you can only see half of it")
     time.sleep(a)
     print()
-    search = input("Do you want to 'search' the dungeon or 'stay' where you are?  ").lower().strip()
+    option3 = input("Do you want to 'search' the dungeon or 'stay' where you are?  ").lower().strip()
     print()
 
-    if search == 'search':
+    if option3 == 'search':
         # take user to the search function
         search()
 
-    elif search == 'stay':
+    elif option3 == 'stay':
         print("You stay where you are")
         print()
         time.sleep(a)
