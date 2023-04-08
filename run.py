@@ -318,24 +318,37 @@ def keyWest():
 
 def findChest():
     # This function progresses the storyline as player finds a large chest
-    print("with your new found freedom and torch in hand you stride around the room")
+    print()
+    print("With your new found freedom and torch in hand you stride around the room")
     time.sleep(c)
+    print()
     print("The dungeon is larger than you had originally suspected")
     time.sleep(c)
+    print()
     print("Secluded in the back you find a large wooden chest")
     time.sleep(b)
+    print()
     print("As you approach the chest you hear a noise behind you")
     print()
     time.sleep(c)
     check = input("Do you 'open' the chest or 'investigate' the noise?   ")
 
     if check == 'open':
-        openChest()
+        open_chest()
     
-    elif check == 'investigate'
+    elif check == 'investigate':
         investigate()
 
-    else
+    else:
+        print("Here it goes again")
+
+
+def open_chest():
+    print("Open that chest up girl")
+
+
+def investigate():
+    print("What are you looking for Scoob?")
 
 
 start()
