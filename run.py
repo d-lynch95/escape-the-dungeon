@@ -62,7 +62,10 @@ def start():
         time.sleep(a)
         print("another time perhaps...")   
         time.sleep(3)
-        start()     
+        start()   
+
+    else:
+        start()  
 
 def begin():
     clearConsole()
