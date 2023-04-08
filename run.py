@@ -296,9 +296,11 @@ def keyWest():
     nextChoice = input("What will you do next? 'search' the room or 'rest'   ")
 
     if nextChoice == 'search':
+        # player can choose to search the room and are brought to findChest function
         findChest()
     
     elif nextChoice == 'rest':
+        # if player chooses to rest the game will end as this is a dead end
         print()
         print("You lie down on the slimy stone floor to rest")
         time.sleep(b)
@@ -315,7 +317,25 @@ def keyWest():
 
 
 def findChest():
-    print("We're getting there")
+    # This function progresses the storyline as player finds a large chest
+    print("with your new found freedom and torch in hand you stride around the room")
+    time.sleep(c)
+    print("The dungeon is larger than you had originally suspected")
+    time.sleep(c)
+    print("Secluded in the back you find a large wooden chest")
+    time.sleep(b)
+    print("As you approach the chest you hear a noise behind you")
+    print()
+    time.sleep(c)
+    check = input("Do you 'open' the chest or 'investigate' the noise?   ")
+
+    if check == 'open':
+        openChest()
+    
+    elif check == 'investigate'
+        investigate()
+
+    else
 
 
 start()
