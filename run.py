@@ -30,7 +30,9 @@ def start():
     time.sleep(a)
     print("We'll need to write something on your gravestone")
     time.sleep(a)
+    print()
     name = input("Insert Username here: ")
+    print()
     print("Best of luck " + name)
     print()
     time.sleep(a)
@@ -48,10 +50,13 @@ def start():
         print()
         print()
         print("See you on the other side " + name)
+        print()
+        time.sleep(a)
         begin()
 
     elif ready == "n":
         time.sleep(b)
+        print()
         print("hmmmm")
         print("maybe this wasn't the place for you")
         time.sleep(a)
@@ -59,6 +64,21 @@ def start():
         time.sleep(3)
         start()     
 
+def begin():
+    clearConsole()
+    print("You wake up in a dark decrepid dungeon")
+    time.sleep(a)
+    print("Everything is shrouded in darkness")
+    time.sleep(b)
+    print("The dungeon is damp and slime covers the old stone walls")
+    time.sleep(c)
+    print("a small flame flickers across the dungeon")
+    time.sleep(a)
+    print("You try to move")
+    time.sleep(b)
+    print("your feet have been shackled together")
+    time.sleep(a)
+    option1 = input("What will you do? Try to 'move' or 'stay' where you are?  ")
 
 
 
