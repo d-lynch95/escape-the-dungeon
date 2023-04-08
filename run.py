@@ -75,14 +75,27 @@ def begin():
     time.sleep(b)
     print("The dungeon is damp and slime covers the old stone walls")
     time.sleep(c)
-    print("a small flame flickers across the dungeon")
+    print("A small flame flickers across the dungeon")
     time.sleep(a)
     print("You try to move")
     time.sleep(b)
-    print("your feet have been shackled together")
+    print("Your feet have been shackled together")
     time.sleep(a)
-    option1 = input("What will you do? Try to 'move' or 'stay' where you are?  ")
+    option1 = input("What will you do? Try to 'move' or 'stay' where you are?  ").lower().strip()
 
+    if option1 == "move":
+        print("")
+        print()
+        print("leshgo")
+
+    elif option1 == "stay":
+        print()
+        print()
+        print("oh no here we go")
+
+
+    else:
+        begin()
 
 
 start()
