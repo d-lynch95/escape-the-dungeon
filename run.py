@@ -118,6 +118,18 @@ def firstMove():
     print("There is a torch on the wall")
     option2a = input("Do you 'take' it or 'stay' where you are?  ").lower().strip()
 
+    if option2a == 'take'
+        # take user to take function
+        take()
 
+    elif option2a == 'stay'
+        print()
+        print("You stand by the torch")
+        print("The warmth of the torch is alluring")
+        print("You reach out and take the torch")
+        take()
+
+def take():
+    
 
 start()
