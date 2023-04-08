@@ -144,6 +144,7 @@ def firstMove():
 
 def take():
     print()
+    time.sleep(a)
     print("You take the torch from it's sconce")
     print()
     print("You wave the torch and the room illuminates")
@@ -169,33 +170,31 @@ def take():
         print()
         wait = input("Do you 'search' the room or 'wait' where you are?  ").lower().strip()
 
-        if wait == "search":
-            #take the user to the search function
-            search()
-        
-        elif wait == "wait":
-            print()
-            time.sleep(a)
-            print("You wait where you are")
-            time.sleep(a)
-            print()
-            print()
-            print("Nothing happens")
-            time.sleep(b)
-            print("The torch slowly burns out")
-            print()
-            print("You are thrust into darkness")
-            time.sleep(b)
-            print()
-            print("GAME OVER")
-            print()
-            time.sleep(c)
-            start()
+            if wait == "search":
+                #take the user to the search function
+                search()
+            
+            elif wait == "wait":
+                print()
+                time.sleep(a)
+                print("You wait where you are")
+                time.sleep(a)
+                print()
+                print()
+                print("Nothing happens")
+                time.sleep(b)
+                print("The torch slowly burns out")
+                print()
+                print("You are thrust into darkness")
+                time.sleep(b)
+                print()
+                print("GAME OVER")
+                print()
+                time.sleep(c)
+                start()
 
-        else:
-            take()
-
-
+            else:
+                take()
 
 def search():
     print("It's all good baybah baybah")
