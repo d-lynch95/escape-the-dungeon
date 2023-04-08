@@ -293,12 +293,12 @@ def keyWest():
     print()
     time.sleep(b)
     print("It feels good to be partly free")
-    nextChoice = input("What will you do next? 'search' the room or 'rest'")
+    nextChoice = input("What will you do next? 'search' the room or 'rest'   ")
 
-    if nextChoice == 'search'
+    if nextChoice == 'search':
         findChest()
     
-    elif nextChoice == 'rest'
+    elif nextChoice == 'rest':
         print()
         print("You lie down on the slimy stone floor to rest")
         time.sleep(b)
@@ -315,6 +315,7 @@ def keyWest():
 
 
 def findChest():
+    print("We're getting there")
 
 
 start()
