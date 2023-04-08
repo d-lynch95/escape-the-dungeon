@@ -161,10 +161,10 @@ def take():
     print()
     print("You wave the torch and the room illuminates")
     print()
-    time.sleep(a)
+    time.sleep(b)
     print("The dungeon is grimy and damp")
     print("but you can only see half of it")
-    time.sleep(a)
+    time.sleep(b)
     print()
     option3 = input("Do you want to 'search' the dungeon or 'stay' where you are?  ").lower().strip()
     print()
@@ -223,6 +223,7 @@ def search():
     print()
     time.sleep(a)
     print("You come across a set of keys on the wall")
+    print()
     keys = input("Do you 'take' them or 'leave' them?  ")
 
     if keys == 'take':
@@ -239,12 +240,12 @@ def search():
         time.sleep(b)
         print("Are you sure you don't want to take those keys?")
         key2 = input("Do you take the keys?   Y/N ").lower().strip()
-        if key2 = 'y':
+        if key2 == 'y':
             keyWest()
-        elif key2 = 'n':
+        elif key2 == 'n':
             print()
             print("You leave the keys where they are")
-            time.sleep.(a)
+            time.sleep(a)
             print("Why would you do that?")
             time.sleep(b)
             print("GAME OVER")
@@ -254,9 +255,10 @@ def search():
         print()
 
 
-    else
+    else:
+        print("potato")
 
 def keyWest(): 
-
+    print("work in progress")
 
 start()
