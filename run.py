@@ -192,6 +192,9 @@ def take():
             time.sleep(c)
             start()
 
+        else:
+            take()
+
 
 
 def search():
