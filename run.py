@@ -343,6 +343,7 @@ def findChest():
         print("Here it goes again")
 
 def investigate():
+    # function results in a game over as player is killed by goblin
     print()
     time.sleep(a)
     print("You turn around and make your way towards the noise")
