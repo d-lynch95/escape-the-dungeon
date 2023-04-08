@@ -121,6 +121,7 @@ def firstMove():
     print()
     print("There is a torch on the wall")
     print()
+    time.sleep(a)
     option2a = input("Do you 'take' it or 'stay' where you are?  ").lower().strip()
 
     if option2a == 'take':
@@ -157,11 +158,11 @@ def take():
     search = input("Do you want to 'search' the dungeon or 'stay' where you are?  ").lower().strip()
     print()
 
-    if search == "search":
+    if search == 'search':
         # take user to the search function
         search()
 
-    elif search == "stay":
+    elif search == 'stay':
         print("You stay where you are")
         print()
         time.sleep(a)
@@ -170,31 +171,32 @@ def take():
         print()
         wait = input("Do you 'search' the room or 'wait' where you are?  ").lower().strip()
 
-            if wait == "search":
-                #take the user to the search function
-                search()
-            
-            elif wait == "wait":
-                print()
-                time.sleep(a)
-                print("You wait where you are")
-                time.sleep(a)
-                print()
-                print()
-                print("Nothing happens")
-                time.sleep(b)
-                print("The torch slowly burns out")
-                print()
-                print("You are thrust into darkness")
-                time.sleep(b)
-                print()
-                print("GAME OVER")
-                print()
-                time.sleep(c)
-                start()
+        if wait == 'search':
+            #take the user to the search function
+            search()
+        
+        elif wait == 'wait':
+            print()
+            time.sleep(a)
+            print("You wait where you are")
+            time.sleep(a)
+            print()
+            print()
+            print("Nothing happens")
+            time.sleep(b)
+            print()
+            print("The torch slowly burns out")
+            print()
+            print("You are thrust into darkness")
+            time.sleep(b)
+            print()
+            print("GAME OVER")
+            print()
+            time.sleep(c)
+            start()
 
-            else:
-                take()
+        else:
+            take()
 
 def search():
     print("It's all good baybah baybah")
