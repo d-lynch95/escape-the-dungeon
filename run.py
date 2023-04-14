@@ -373,6 +373,10 @@ def investigate():
 
 
 def open_chest():
+    """
+    In this function the player opens the chest and has the option to select a weapon
+    The weapon input is a global variable to allow it to be used later in the story
+    """
     print()
     time.sleep(b)
     print("You approach the old chest")
@@ -397,7 +401,7 @@ def open_chest():
     print("Choose your weapon")
     time.sleep(b)
     print()
-    weapon = input("Do you take the 'sword' or the 'spear'?   ").lower().strip()
+    global weapon = input("Do you take the 'sword' or the 'spear'?   ").lower().strip()
 
     if weapon == "sword":
         sword()
@@ -522,9 +526,23 @@ def spear():
     print()
     print("They are holding a torch and a bow")
     time.sleep(c)
-    spear-gang = input("What will you do? 'stay' or 'throw' your spear at the goblin?    ").lower().strip()
+    spear_gang = input("What will you do? 'stay' or 'throw' your spear at the goblin?    ").lower().strip()
 
-    if spear-gang == "stay"
+    if spear_gang == "stay":
+        spear_death()
+    
+    elif spear_gang == "throw":
+        impale()
+
+    else:
+        print("input validation")
+
+def spear_death():
+    print()
+    time.sleep(b)
+    print("You ")
+
+
 
 start()
 
