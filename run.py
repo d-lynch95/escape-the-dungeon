@@ -10,11 +10,15 @@ import os
 """
 Inventory is a list that shows users the items they have collected throughout the game
 """
+global inventory
 inventory = ['There is nothing in your inventory']
 
 a = 1
 b = 2
 c = 3
+
+def inventory()
+    print(inventory)
 
 def clearConsole():
     """
