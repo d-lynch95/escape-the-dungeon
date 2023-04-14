@@ -427,10 +427,20 @@ def sword():
     time.sleep(c)
     gobby = input("What will you do? 'stay' or 'charge' at the goblin?    ").lower().strip()
 
-    if gobby == "stay"
-        
+    if gobby == "stay":
+        stay_death()
     
+    elif gobby = "charge":
+        sword_death()
+
+    else:
+        print("invalid input girl")
 
 def spear():
     print("spear that bread girl")
+
+
+
 start()
+
+
