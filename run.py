@@ -31,6 +31,7 @@ def start():
     print("We'll need to write something on your gravestone")
     time.sleep(a)
     print()
+    global name
     name = input("Insert Username here: ")
     print()
     print("Best of luck " + name)
@@ -106,7 +107,7 @@ def instructions():
     print()
     print()
     time.sleep(b)
-    print("Best of luck in Escape The Dungeon" + name)
+    print("Best of luck in Escape The Dungeon")
     time.sleep(c)
     start()
 
