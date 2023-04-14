@@ -443,6 +443,35 @@ def stay_death():
 def sword_death():
     print("Game over")
 
+
+def stay_death():
+    print()
+    time.sleep(b)
+    print("You steady yourself and hold your ground")
+    time.sleep(b)
+    print()
+    print("The goblin looks at you")
+    time.sleep(b)
+    print()
+    print("He unsheathes a sword from its scabbard")
+    time.sleep(b)
+    print()
+    print("The goblin charges at you")
+    time.sleep(b)
+    print()
+    print("He swings his sword in one fluid motion")
+    time.sleep(b)
+    print()
+    print("He chops your head clean off your shoulders")
+    time.sleep(b)
+    print()
+    print("You never stood a chance..")
+    time.sleep(c)
+    print()
+    print("GAME OVER")
+    print()
+    time.sleep(c)
+
 def spear():
     print("spear that bread girl")
 
