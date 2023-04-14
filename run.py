@@ -81,6 +81,14 @@ def start():
         inventory()
 
     elif input == "q":
+        print()
+        time.sleep(a)
+        print("Thank you for playing " + name)
+        print()
+        time.sleep(b)
+        print("See you again soon")
+        print()
+        time.sleep(c)
         exit()
 
     else:
@@ -112,6 +120,7 @@ def instructions():
     print("Press 'c' to view your inventory during the game")
     print()
     print("If you want to exit the game at anytime press 'q'")
+    print()
     print()
     time.sleep(b)
     print("Best of luck in Escape The Dungeon " + name)
@@ -159,6 +168,14 @@ def begin():
         inventory()
 
     elif input == "q":
+        print()
+        time.sleep(a)
+        print("Thank you for playing " + name)
+        print()
+        time.sleep(b)
+        print("See you again soon")
+        print()
+        time.sleep(c)
         exit()
 
     else:
@@ -209,6 +226,14 @@ def firstMove():
         inventory()
 
     elif input == "q":
+        print()
+        time.sleep(a)
+        print("Thank you for playing " + name)
+        print()
+        time.sleep(b)
+        print("See you again soon")
+        print()
+        time.sleep(c)
         exit()
 
     else:
@@ -270,6 +295,20 @@ def take():
             time.sleep(c)
             start()
 
+        elif input == "c":
+        inventory()
+
+        elif input == "q":
+            print()
+            time.sleep(a)
+            print("Thank you for playing " + name)
+            print()
+            time.sleep(b)
+            print("See you again soon")
+            print()
+            time.sleep(c)
+            exit()
+
         else:
             take()
 
@@ -302,6 +341,7 @@ def search():
         time.sleep(b)
         print("Are you sure you don't want to take those keys?")
         key2 = input("Do you take the keys?   Y/N ").lower().strip()
+
         if key2 == 'y':
             keyWest()
         elif key2 == 'n':
@@ -313,10 +353,35 @@ def search():
             print("GAME OVER")
             time.sleep(c)
             start()
+        
+        elif input == "c":
+        inventory()
 
+        elif input == "q":
+            print()
+            time.sleep(a)
+            print("Thank you for playing " + name)
+            print()
+            time.sleep(b)
+            print("See you again soon")
+            print()
+            time.sleep(c)
+            exit()
+
+    elif input == "c":
+        inventory()
+
+    elif input == "q":
         print()
-
-
+        time.sleep(a)
+        print("Thank you for playing " + name)
+        print()
+        time.sleep(b)
+        print("See you again soon")
+        print()
+        time.sleep(c)
+        exit()
+    
     else:
         print("potato")
 
@@ -375,7 +440,19 @@ def keyWest():
         time.sleep(c)
         start()
 
+    elif input == "c":
+        inventory()
 
+    elif input == "q":
+        print()
+        time.sleep(a)
+        print("Thank you for playing " + name)
+        print()
+        time.sleep(b)
+        print("See you again soon")
+        print()
+        time.sleep(c)
+        exit()
 
 def findChest():
     # This function progresses the storyline as player finds a large chest
@@ -399,6 +476,20 @@ def findChest():
     
     elif check == 'investigate':
         investigate()
+
+    elif input == "c":
+        inventory()
+
+    elif input == "q":
+        print()
+        time.sleep(a)
+        print("Thank you for playing " + name)
+        print()
+        time.sleep(b)
+        print("See you again soon")
+        print()
+        time.sleep(c)
+        exit()
 
     else:
         print("Here it goes again")
@@ -471,6 +562,20 @@ def open_chest():
     elif weapon == "spear":
         spear()
 
+    elif input == "c":
+        inventory()
+
+    elif input == "q":
+        print()
+        time.sleep(a)
+        print("Thank you for playing " + name)
+        print()
+        time.sleep(b)
+        print("See you again soon")
+        print()
+        time.sleep(c)
+        exit()
+
     else:
         print("Insert input validation")
 
@@ -499,6 +604,20 @@ def sword():
     
     elif gobby == "charge":
         sword_death()
+
+    elif input == "c":
+        inventory()
+
+    elif input == "q":
+        print()
+        time.sleep(a)
+        print("Thank you for playing " + name)
+        print()
+        time.sleep(b)
+        print("See you again soon")
+        print()
+        time.sleep(c)
+        exit()
 
     else:
         print("invalid input girl")
@@ -595,6 +714,20 @@ def spear():
     
     elif spear_gang == "throw":
         impale()
+
+    elif input == "c":
+        inventory()
+
+    elif input == "q":
+        print()
+        time.sleep(a)
+        print("Thank you for playing " + name)
+        print()
+        time.sleep(b)
+        print("See you again soon")
+        print()
+        time.sleep(c)
+        exit()
 
     else:
         print("input validation")
