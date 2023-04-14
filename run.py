@@ -76,6 +76,12 @@ def start():
         This will allow user to see the instructions to the game and understand how to play
         """
         instructions()
+    
+    elif input == "c":
+        inventory()
+
+    elif input == "q":
+        exit()
 
     else:
         start()  
@@ -148,6 +154,12 @@ def begin():
         time.sleep(c)
         begin()
 
+    elif input == "c":
+        inventory()
+
+    elif input == "q":
+        exit()
+
     else:
         # if player hits the wrong button the game resets
         begin()
@@ -191,6 +203,13 @@ def firstMove():
         print()
         time.sleep(a)
         take()
+
+    elif input == "c":
+        inventory()
+
+    elif input == "q":
+        exit()
+
     else:
         firstMove()
 
@@ -622,8 +641,4 @@ def impale():
 
 start()
 
-if input == "c":
-    inventory()
 
-if input == "q":
-    exit()
