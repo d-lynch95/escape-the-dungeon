@@ -430,7 +430,7 @@ def sword():
     if gobby == "stay":
         stay_death()
     
-    elif gobby = "charge":
+    elif gobby == "charge":
         sword_death()
 
     else:
