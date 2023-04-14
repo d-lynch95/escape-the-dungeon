@@ -622,8 +622,8 @@ def impale():
 
 start()
 
-if input == "c"
+if input == "c":
     inventory()
 
-if input == "q"
+if input == "q":
     exit()
