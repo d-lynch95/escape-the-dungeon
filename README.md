@@ -46,51 +46,43 @@ Escape the dungeon is a text based adventure game designed to enthral and deligh
 - As a user I want to
   - easily and intuitively navigate throughout the website
   - browse the website naturally and with ease
-  - understand how to use the website using simple instructions
+  - understand how to play the game using simple instructions
   - be able to view the website and read all information on all screen sizes
-  - easily input my information and view my pay 
+  - easily input my information and play the game
+
 
 ### Business owner goals
 - As the website business owner I want to 
-  - provide a tool for employees to see their commission bonus
-  - provide a way for employees to double check their pay is correct
-  - provide a tool to free up employee time and increase efficiency
-  - provide a way for employees to view current bonus status 
-  - motivate employees to make more sales by viewing cph bonuses
+  - provide an enjoyable gameplay experience for players.
+  - have multiple gameplay options to encourage players to return.
+  - provide a bug free gameplay experience.
+  - have a logical gameplay story
 
 ### User Stories
 
 #### As a user
-  - As a user I want to visit the website to calculate my pay
+  - As a user I want to visit the website to play the game
   - As a user I want to easily understand how to use the website
   - As a user I want to input my information with ease
-  - As a user I want to view my pay breakdown with ease
-  - As a user I want to use the tool to ensure my weekly pay is correct
-  - As a user I want to use the tool to calculate money needed to reach the next bonus 
+  - As a user I want to play the game with ease
+  - As a user I want to have an enjoyable experience
+  - As a user I want to return to the site to play the game again
 
 
 #### As a website business owner
-- As a site owner I want to provide a tool to allow employees to calcualate commission bonus
 - As a site owner I want to excite users and peak their interest
 - As a site owner I want to allow for a good user experience
-- As a site owner I want to allow the customer to easily navigate the website without issues
-- As a site owner I want to provide an error 404 page with a link home incase of any issues
-- As a site owner I want to motivate employees to increase sales by allowing them to see commission structure
-- As a site owner I want to increase transparency of pay between management and staff
-- As a site owner I want to allow employees to independently calculate their wages
+- As a site owner I want to allow the user to easily navigate the website without issues
+- As a site owner I want to encourage users to play the game and potentially inform new users of their experience.
 
 
 #### As a new user
 - As a new user I want to navigate the page intuitively and with ease
 - As a new user I want to understand the page purpose upon first viewing
 - As a new user I want to have the instructions explained clearly on how to use the tool
-- As a new user I want to easily input my information
-- As a new user I want to view output of calculations with ease
-- As a new user I want to have view my total pay package
-- As a new user I want to have my pay breakdown explained to me
-- As a new user I want to view the amount of taxation due
-- As a new user I want to view my total bonus paid each week
-- As a new user I want to enjoy the experience and return to use the tool each week
+- As a new user I want to easily input my choices
+- As a new user I want to easily follow the storyline
+- As a new user I want to enjoy the experience and return to play the game again
 
 ## Design
 
