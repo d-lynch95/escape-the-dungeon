@@ -410,7 +410,7 @@ def open_chest():
 
 def sword():
     print()
-    print("You take the sword from the chest")
+    print("You take the " + weapon + " from the chest")
     print()
     time.sleep(b)
     print("The footsteps are close now")
@@ -506,7 +506,7 @@ def stay_death():
 
 def spear():
     print()
-    print("You take the sword from the chest")
+    print("You take the " + weapon + " from the chest")
     print()
     time.sleep(b)
     print("The footsteps are close now")
@@ -522,9 +522,9 @@ def spear():
     print()
     print("They are holding a torch and a bow")
     time.sleep(c)
-    gobby = input("What will you do? 'stay' or 'charge' at the goblin?    ").lower().strip()
+    spear-gang = input("What will you do? 'stay' or 'throw' your spear at the goblin?    ").lower().strip()
 
-
+    if spear-gang == "stay"
 
 start()
 
