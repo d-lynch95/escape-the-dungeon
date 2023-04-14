@@ -401,7 +401,8 @@ def open_chest():
     print("Choose your weapon")
     time.sleep(b)
     print()
-    global weapon = input("Do you take the 'sword' or the 'spear'?   ").lower().strip()
+    global weapon
+    weapon = input("Do you take the 'sword' or the 'spear'?   ").lower().strip()
 
     if weapon == "sword":
         sword()
@@ -477,7 +478,7 @@ def sword_death():
     print()
     print("Game Over")
     time.sleep(c)
-    print("Game over")
+    
 
 
 def stay_death():
@@ -529,7 +530,7 @@ def spear():
     spear_gang = input("What will you do? 'stay' or 'throw' your spear at the goblin?    ").lower().strip()
 
     if spear_gang == "stay":
-        spear_death()
+        stay_death()
     
     elif spear_gang == "throw":
         impale()
@@ -537,11 +538,45 @@ def spear():
     else:
         print("input validation")
 
-def spear_death():
+def impale():
     print()
     time.sleep(b)
-    print("You ")
-
+    print("You weigh the spear in your hand")
+    time.sleep(b)
+    print()
+    print("You calculate the distance to the Goblin")
+    time.sleep(b)
+    print()
+    print("You hoist the spear onto your shoulder like a javelin..")
+    time.sleep(b)
+    print(".. and throw it with all your might")
+    time.sleep(c)
+    print()
+    print("You strike the goblin square in the chest")
+    time.sleep(c)
+    print()
+    print("He is killed instantly")
+    time.sleep(c)
+    print()
+    print("You make your way across the dungeon")
+    time.sleep(b)
+    print()
+    print("You go to the area where the goblin appeared from")
+    time.sleep(b)
+    print()
+    print("You find the secret passageway and begin to ascend")
+    time.sleep(b)
+    print()
+    print("You find the exit and open the door")
+    time.sleep(b)
+    print()
+    print("You shut as the strong sunlight burns your retina")
+    time.sleep(b)
+    print()
+    print("The sun feels warm on your skin")
+    time.sleep(b)
+    print()
+    print("Congratulations " + name + " you are finally free")
 
 
 start()
