@@ -77,8 +77,8 @@ def start():
         """
         instructions()
 
-    # else:
-    #     start()  
+    else:
+        start()  
 
 def instructions():
     """
@@ -107,7 +107,7 @@ def instructions():
     print()
     print()
     time.sleep(b)
-    print("Best of luck in Escape The Dungeon")
+    print("Best of luck in Escape The Dungeon " + name)
     time.sleep(c)
     start()
 
