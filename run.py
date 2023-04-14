@@ -374,7 +374,7 @@ def investigate():
 
 def open_chest():
     print()
-    sleep.time(a)
+    time.sleep(a)
     print("You approach the old chest")
     print()
     print("You reach down and grab the rotten wood")
