@@ -40,6 +40,9 @@ def start():
     print()
     print()
     time.sleep(a)
+    print()
+    print("Press 'i' to see the instructions")
+    print()
     ready = input("Are you ready to begin? Y/N ").lower().strip()
 
     if ready == "y":
@@ -67,8 +70,34 @@ def start():
         time.sleep(3)
         start()   
 
+    elif ready == "i"
+        instructions()
+
     else:
         start()  
+
+def instructions():
+    """
+    This function is run to explain the gameplay to players
+    """
+    print()
+    print("You are trapped in a foul dungeon")
+    print()
+    print("You must use logic and wit to escape")
+    print()
+    print("After each scenario you will be prompted to make a decision")
+    print()
+    print("Type the decision into the console to progress the story")
+    print()
+    print("If you type something else you will be prompted again")
+    print()
+    print("You also have an inventory during the game")
+    print()
+    print("press 'c' to view your inventory during the game")
+    print()
+    print()
+    print("Best of luck in Escape The Dungeon")
+    start()
 
 def begin():
     """
