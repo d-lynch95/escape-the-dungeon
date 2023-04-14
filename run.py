@@ -25,7 +25,7 @@ def clearConsole():
     os.system('cls' if os.name == 'nt' else 'clear')
 
 def inventory():
-    print(inventory)
+    print(inventory())
 
 
 def start():
