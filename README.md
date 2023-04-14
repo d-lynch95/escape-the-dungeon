@@ -94,9 +94,9 @@ The design of this website is based off a very minimalist style. The purpose of 
 This website has a simple single page design. This format was easiest and allows the user to understand the information input process and use the tool instantaneously. The page also has a 404 error page to deal with any errors and allow the users to return to the main page.
 
 
-### Wireframe
+### Design flow chart
 
-The wireframes were developed in a mobile first environment. The original wireframe design has had some minor alterations during production but has mostly remained true to the design. 
+This game flow and logic was designed using lucidchart. This was the first time using lucidchart so the chart is quite basic as it was made during the original genesis of the game. The game has since grown in size and stature and more text has been added to bulk up the options.
 
 ##### Main Page
 
@@ -107,24 +107,25 @@ The wireframes were developed in a mobile first environment. The original wirefr
 
 
 ## Technologies used
+- Python
+  - The main language used in this project was python
 - HTML
-  - The main body of the website was created using HTML
+  - The website contains a little bit of HTML
 - CSS
-  - The website was styled using a linked CSS file
+  - The templates used from CI include some CSS
 - GitHub
   - The website is hosted on GitHub
 - GitPod
   - The website was developed on GitPod
 - Git 
   - used to commit and push code during development
+- Heroku
+ - The game is hosted on heroku
 - Convertio.co
   - [This](https://convertio.co/) site was used to convert jpg and png files to webp files
-- Tinypng
-  - [TinyPNG](https://tinypng.com/) was used to reduce file sizes across the site
-- Favicon.io 
-  - This site was used to create the [favicon](https://favicon.io/) files
-- Balsamiq
-  - The original wireframe idea was created using [Balsamiq](https://balsamiq.com/wireframes/desktop/#)
+- LucidChart
+ -The gameplay flow chart was designed on lucid chart
+
 
 ## Features 
 
