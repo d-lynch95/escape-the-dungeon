@@ -373,9 +373,43 @@ def investigate():
 
 
 def open_chest():
-    print("Open that chest up girl")
+    print()
+    sleep.time(a)
+    print("You approach the old chest")
+    print()
+    print("You reach down and grab the rotten wood")
+    print()
+    time.sleep(a)
+    print("You heave with all your might and lift the heavy lid")
+    print()
+    print("You wave the torch over the open chest")
+    print()
+    time.sleep(b)
+    print("Steel glints in the torch light")
+    print()
+    time.sleep(a)
+    print()
+    print("Nestled in the chest you can see a torch and a spear")
+    print()
+    time.sleep(b)
+    print("Choose your weapon")
+    time.sleep(a)
+    print()
+    weapon = input("Do you take the 'sword' or the 'spear'?").lower().strip()
 
+    if weapon == "sword":
+        sword()
 
+    elif weapon == "spear":
+        spear()
 
+    else
+        print("Insert input validation")
 
+def sword():
+    print("Leshgooo")
+    
+
+def spear():
+    print("spear that bread girl")
 start()
