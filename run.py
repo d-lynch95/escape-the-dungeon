@@ -70,7 +70,10 @@ def start():
         time.sleep(3)
         start()   
 
-    elif ready == "i"
+    elif ready == "i":
+        """ 
+        This will allow user to see the instructions to the game and understand how to play
+        """
         instructions()
 
     else:
