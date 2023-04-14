@@ -403,7 +403,7 @@ def open_chest():
     elif weapon == "spear":
         spear()
 
-    else
+    else:
         print("Insert input validation")
 
 def sword():
