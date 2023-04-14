@@ -11,7 +11,8 @@ import os
 Inventory is a list that shows users the items they have collected throughout the game
 """
 global inventory
-inventory = ['There is nothing in your inventory']
+inventory
+ = ['There is nothing in your inventory']
 
 a = 1
 b = 2
@@ -25,8 +26,13 @@ def clearConsole():
     os.system('cls' if os.name == 'nt' else 'clear')
 
 def inventory():
-    print(inventory())
+    print(inventory)
 
+def validation():
+    print()
+    print("That's not a valid input")
+    print()
+    print("Please select another input option")
 
 def start():
     """
@@ -104,7 +110,7 @@ def start():
         exit()
 
     else:
-        start()  
+        validation() 
 
 def instructions():
     """
