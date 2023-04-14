@@ -397,7 +397,7 @@ def open_chest():
     print("Choose your weapon")
     time.sleep(b)
     print()
-    weapon = input("Do you take the 'sword' or the 'spear'?").lower().strip()
+    weapon = input("Do you take the 'sword' or the 'spear'?   ").lower().strip()
 
     if weapon == "sword":
         sword()
@@ -409,7 +409,26 @@ def open_chest():
         print("Insert input validation")
 
 def sword():
-    print("Leshgooo")
+    print()
+    print("You take the sword from the chest")
+    print()
+    time.sleep(b)
+    print("The footsteps are close now")
+    time.sleep(b)
+    print("a faint light appears in the far corner of the dungeon")
+    time.sleep(b)
+    print()
+    print("it grows closer")
+    time.sleep(b)
+    print()
+    print("suddenly a goblin steps out of a hidden corridor")
+    time.sleep(b)
+    print("they are holding a torch and a bow")
+    time.sleep(c)
+    gobby = input("What will you do? 'stay' or 'charge' at the goblin?    ").lower().strip()
+
+    if gobby == "stay"
+        
     
 
 def spear():
