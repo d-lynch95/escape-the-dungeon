@@ -436,6 +436,12 @@ def sword():
     else:
         print("invalid input girl")
 
+def stay_death():
+    print("Game over")
+
+def sword_death():
+    print("Game over")
+
 def spear():
     print("spear that bread girl")
 
