@@ -505,7 +505,24 @@ def stay_death():
     time.sleep(c)
 
 def spear():
-    print("spear that bread girl")
+    print()
+    print("You take the sword from the chest")
+    print()
+    time.sleep(b)
+    print("The footsteps are close now")
+    time.sleep(b)
+    print("A faint light appears in the far corner of the dungeon..")
+    time.sleep(b)
+    print()
+    print("..it grows closer")
+    time.sleep(b)
+    print()
+    print("Suddenly a goblin steps out of a hidden corridor")
+    time.sleep(b)
+    print()
+    print("They are holding a torch and a bow")
+    time.sleep(c)
+    gobby = input("What will you do? 'stay' or 'charge' at the goblin?    ").lower().strip()
 
 
 
