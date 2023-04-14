@@ -330,3 +330,7 @@ The live link can be found here - https://d-lynch95.github.io/Portfolio2_CPH-cal
 - I used the following projects as inspiration for my project. [Loan Calculator](https://github.com/Code-Institute-Submissions/loancalculator) , [Viscocity Calculator](https://github.com/Code-Institute-Submissions/Viscosity-Calculator), [Calorie Calculator](https://github.com/Code-Institute-Submissions/calorie-calculator-1)
 
  - I also received help from the following slack users for minor bugs or style changes inc21, Tatiana Ruffo, Dave T, Jo_ci and I received a lot of help and advice from my mentor Gareth McGirr and from Paul Thomas our cohort leader.
+
+
+
+- Advice for creating global variables was taken from [Stack Overflow](https://stackoverflow.com/questions/50433604/how-do-i-store-an-input-as-a-global-variable)
