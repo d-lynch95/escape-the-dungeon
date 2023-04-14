@@ -17,14 +17,16 @@ a = 1
 b = 2
 c = 3
 
-def inventory()
-    print(inventory)
 
 def clearConsole():
     """
     Clears the console.
     """
     os.system('cls' if os.name == 'nt' else 'clear')
+
+def inventory():
+    print(inventory)
+
 
 def start():
     """
@@ -232,10 +234,10 @@ def firstMove():
         time.sleep(a)
         take()
 
-    elif input == "c":
+    elif option2a == "c":
         inventory()
 
-    elif input == "q":
+    elif option2a == "q":
         print()
         time.sleep(a)
         print("Thank you for playing " + name)
@@ -306,7 +308,7 @@ def take():
             start()
 
         elif input == "c":
-        inventory()
+            inventory()
 
         elif input == "q":
             print()
@@ -365,7 +367,7 @@ def search():
             start()
         
         elif input == "c":
-        inventory()
+            inventory()
 
         elif input == "q":
             print()
