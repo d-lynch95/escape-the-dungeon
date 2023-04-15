@@ -221,6 +221,10 @@ def begin():
             inventory()
         elif option1 == "q":
             fin()
+        else:
+            validation()
+            option1 = input("What will you do? Try to 'move' or 'stay' where you are?  ").lower().strip()
+            print()
 
 
 def firstMove():
