@@ -135,7 +135,7 @@ def start():
             imready()
         elif ready == "n":
             notready()
-        elif answer == "q":
+        elif ready == "q":
             fin()
         else:
             start()
@@ -211,10 +211,10 @@ def begin():
         time.sleep(c)
         begin()
 
-    elif input == "c":
+    elif option1 == "c":
         inventory()
 
-    elif input == "q":
+    elif option1 == "q":
         fin()
 
     else:
@@ -233,9 +233,9 @@ def begin():
             print("Your body aches as you slowly drift into a slumber")
             time.sleep(c)
             begin()
-        elif input == "c":
+        elif option1 == "c":
             inventory()
-        elif input == "q":
+        elif option1 == "q":
             fin()
 
 
