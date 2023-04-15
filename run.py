@@ -6,6 +6,9 @@ import time
 import random
 import os
 
+import colorama
+from colorama import Fore, Back, Style
+
 #Inventory is a list that shows users the items they have collected throughout the game
 global inventory
 inventory = ['There is nothing in your inventory']
