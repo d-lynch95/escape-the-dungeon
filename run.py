@@ -11,8 +11,7 @@ import os
 Inventory is a list that shows users the items they have collected throughout the game
 """
 global inventory
-inventory
- = ['There is nothing in your inventory']
+inventory = ['There is nothing in your inventory']
 
 a = 1
 b = 2
@@ -33,6 +32,26 @@ def validation():
     print("That's not a valid input")
     print()
     print("Please select another input option")
+
+def imready():
+    time.sleep(a)
+    print()
+    print()
+    print("See you on the other side " + name)
+    print()
+    time.sleep(a)
+    begin()
+
+
+def notready():
+    time.sleep(b)
+    print()
+    print("hmmmm")
+    print("maybe this wasn't the place for you")
+    time.sleep(a)
+    print("another time perhaps...")   
+    time.sleep(c)
+    start()   
 
 def start():
     """
@@ -68,26 +87,15 @@ def start():
         """
         This will start the game for the player using begin() function
         """
-        time.sleep(a)
-        print()
-        print()
-        print("See you on the other side " + name)
-        print()
-        time.sleep(a)
-        begin()
+        imready()
+        
 
     elif ready == "n":
         """
         This will restart the game if players arent ready to play
         """
-        time.sleep(b)
-        print()
-        print("hmmmm")
-        print("maybe this wasn't the place for you")
-        time.sleep(a)
-        print("another time perhaps...")   
-        time.sleep(3)
-        start()   
+        notready()
+        
 
     elif ready == "i":
         """ 
@@ -99,18 +107,23 @@ def start():
         inventory()
 
     elif input == "q":
-        print()
-        time.sleep(a)
-        print("Thank you for playing " + name)
-        print()
-        time.sleep(b)
-        print("See you again soon")
-        print()
-        time.sleep(c)
-        exit()
+        quit()
 
     else:
-        validation() 
+        validation()
+        ready = input("Are you ready to begin? Y/N ").lower().strip()
+          if ready == "y":
+            imready()
+        elif ready == "n":
+            notready()
+        elif answer == "q":
+            # allow player to exit
+            print("Too scared to see if you would of made it?")
+            print("Doubt you would of got far anyway")
+            start()
+        else:
+            start()
+
 
 def instructions():
     """
@@ -143,7 +156,7 @@ def instructions():
     time.sleep(b)
     print("Best of luck in Escape The Dungeon " + name)
     time.sleep(c)
-    start()
+    begin()
 
 def begin():
     """
