@@ -29,7 +29,9 @@ def inventory():
 
 def validation():
     print()
+    time.sleep(a)
     print("That's not a valid input")
+    time.sleep(b)
     print()
     print("Please select another input option")
 
@@ -51,7 +53,18 @@ def notready():
     time.sleep(a)
     print("another time perhaps...")   
     time.sleep(c)
-    start()   
+    start()  
+
+def fin():
+    print()
+    time.sleep(a)
+    print("Thank you for playing " + name)
+    print()
+    time.sleep(b)
+    print("See you again soon")
+    print()
+    time.sleep(c)
+    quit()
 
 def start():
     """
@@ -85,7 +98,7 @@ def start():
 
     if ready == "y":
         """
-        This will start the game for the player using begin() function
+        This will start the game for the player using imready() function
         """
         imready()
         
@@ -104,23 +117,26 @@ def start():
         instructions()
     
     elif input == "c":
+        """
+        This will show the player the current items in their inventory
+        """
         inventory()
 
     elif input == "q":
-        quit()
+        """
+        This allows the player to exit the game
+        """
+        fin()
 
     else:
         validation()
         ready = input("Are you ready to begin? Y/N ").lower().strip()
-          if ready == "y":
+        if ready == "y":
             imready()
         elif ready == "n":
             notready()
         elif answer == "q":
-            # allow player to exit
-            print("Too scared to see if you would of made it?")
-            print("Doubt you would of got far anyway")
-            start()
+            fin()
         else:
             start()
 
@@ -199,19 +215,29 @@ def begin():
         inventory()
 
     elif input == "q":
-        print()
-        time.sleep(a)
-        print("Thank you for playing " + name)
-        print()
-        time.sleep(b)
-        print("See you again soon")
-        print()
-        time.sleep(c)
-        exit()
+        fin()
 
     else:
-        # if player hits the wrong button the game resets
-        begin()
+        validation()
+        option1 = input("What will you do? Try to 'move' or 'stay' where you are?  ").lower().strip()
+        print()
+        if option1 == "move":
+            firstMove()
+        elif option1 == "stay": 
+            time.sleep(a)
+            print("Nothing happens")
+            print()
+            print("Your eyes start to close")
+            print()
+            time.sleep(b)
+            print("Your body aches as you slowly drift into a slumber")
+            time.sleep(c)
+            begin()
+        elif input == "c":
+            inventory()
+        elif input == "q":
+            fin()
+
 
 def firstMove():
     # This function allows the player to move across the room
