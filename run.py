@@ -24,7 +24,10 @@ def clearConsole():
     os.system('cls' if os.name == 'nt' else 'clear')
 
 def inventory():
+    time.sleep(c)
+    print()
     print(inventory)
+    time.sleep(c)
 
 def validation():
     print()
