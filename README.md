@@ -195,9 +195,9 @@ This game flow and logic was designed using lucidchart. This was the first time 
 ### BUGS
  - I encountered several bugs while creating this project.
 
-- I encountered a lot of difficulty when nesting the formulas within the calculateAll() formula. I did not realise that the child functions would have to be called seperately within the parent function after they had been declared.
+- I encountered a lot of difficulty when creating functions during this project. Having just come from learning JS I was having lots of issues with correct function formatting.
 
-- I faced issues with timing of the funcions. The functions were all executing at the same time and were creating issues. This was fixed using a selfTimeout code section.
+- I faced issues with timing of the text. The print statement within the functions were all executing at the same time and were creating issues. This was fixed using a time.sleep() code section.
 
 - There was a lot of bugs faced when outputting the results of formulas and I had to convert all of the data types using parseFloat() to ensure the data could be used for other calculations.
 
