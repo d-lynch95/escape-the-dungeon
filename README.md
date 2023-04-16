@@ -87,11 +87,11 @@ Escape the dungeon is a text based adventure game designed to enthral and deligh
 ## Design
 
 ### Font
-The design of this website is based off a very minimalist style. The purpose of this website is to provide a tool for users to calculate their weekly pay with ease. The design of the website focuses on usability and ease of understanding instead of complex design. The orange colour scheme is in-line with the HappyTravels brand and the main page title is written in a Lillita one font to reflect the fun and playful font of the HappyTravels logo. The main body is written in an Open Sans font to allow for accessibility and ease of reading. The font for the main body is white to allow for contrast and ease of reading. This font colour is also in line with brand guidelines.
+The design of this website is a very simple style as the format template was provided by the code institute. This program predominantly focuses on the Python programming language so does not incorporate CSS or styling features.
 
 ### Structure
 
-This website has a simple single page design. This format was easiest and allows the user to understand the information input process and use the tool instantaneously. The page also has a 404 error page to deal with any errors and allow the users to return to the main page.
+This website has a simple single page design. This format was easiest as the template was provided by the Code institute.
 
 
 ### Design flow chart
@@ -213,16 +213,6 @@ This game flow and logic was designed using lucidchart. This was the first time 
 The site was tested on chrome, safari and opera browsers on desktop without any issues. The site was tested on desktop, tablet and mobile using chrome developer tools. The actual tablet testing was done on an ipad. The mobile testing was done on an iphone 12 using the safari browser and also tested on android devices OnePlus 7 and OnePlus Nord CE on chrome browsers. The site was also tested on a samsung phone using the opera browser. None of the tablet or mobile devices presented any issues.
 
 
-### Accessibility
-
-- Home page
-
-
-![Index Lighthouse](assets/images/accessibility/cph-lighthouse.png)
-![Index Wave](assets/images/accessibility/wave-errorcheck.png)
-
-
-
 ### Validator Testing 
 
 - HTML
@@ -235,6 +225,8 @@ The site was tested on chrome, safari and opera browsers on desktop without any 
   - No errors were found when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fd-lynch95.github.io%2FPortfolio2_CPH-calculator%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
   ![Index page](assets/images/accessibility/css%20validator.png)
 
+- Python
+  - 
 
 ### Manual Testing
 
@@ -291,39 +283,32 @@ The live link can be found here - https://d-lynch95.github.io/Portfolio2_CPH-cal
   - Type git clone copied-git-url into the IDE terminal
   - The project will now of been cloned on your local machine for use.
 
+- Heroku 
+
+
 ## Credits 
 
 ### Content 
 
-- The format and template for the README file was borrowed from the [Code institute](https://codeinstitute.net/ie/)
+- The format and template for the README file was borrowed from the [Code institute](https://codeinstitute.net/ie/).
 
 - The image conversions from jpg to webp were done with [Convertio](https://convertio.co)
-
-- The image compressions were done using [Tinypng](https://tinypng.com)
-
-- The fonts were taken from googlefonts.
-
-- The logo was downloaded from Google images
-
-- The Favicon was made using [Favicon](https://favicon.io/)
 
 
 ### Coding help
 
-- The outline template for the HTML body was provided by the [Code Institiute](https://www.codeinstitute.com)
+- The outline template for the Python was provided by the [Code Institiute](https://www.codeinstitute.com)
 
-- A lot of the Javascript coding was done with help from the tutorial pages at [w3schools](https://www.w3schools.com/)
-
-- Adding the Favicon to the website was done using help from [StackOverflow](https://stackoverflow.com/questions/4888377/how-to-add-a-browser-tab-icon-favicon-for-a-website)
+- A lot of the python coding was done with help from the tutorial pages at [w3schools](https://www.w3schools.com/)
 
 - The tutor support team from codeinstitute were extremely helpful in helping me to overcome bugs in my code.
 
-- I used countless stack overflow entries to help me to solve minor javascript related bugs.
+- I used countless stack overflow entries to help me to solve minor python related bugs.
 
-- I used the following projects as inspiration for my project. [Loan Calculator](https://github.com/Code-Institute-Submissions/loancalculator) , [Viscocity Calculator](https://github.com/Code-Institute-Submissions/Viscosity-Calculator), [Calorie Calculator](https://github.com/Code-Institute-Submissions/calorie-calculator-1)
-
- - I also received help from the following slack users for minor bugs or style changes inc21, Tatiana Ruffo, Dave T, Jo_ci and I received a lot of help and advice from my mentor Gareth McGirr and from Paul Thomas our cohort leader.
-
-
+- I used the following projects as inspiration for my project. [Zombie Survival](https://github.com/JamesFahey/zombie-survival/blob/main/run.py)
 
 - Advice for creating global variables was taken from [Stack Overflow](https://stackoverflow.com/questions/50433604/how-do-i-store-an-input-as-a-global-variable)
+
+- I used the following Youtube tutorials [Choose your own Adventure](https://www.youtube.com/watch?v=DEcFCn2ubSg) and [Time unravelled](https://www.youtube.com/watch?v=ypNFNr72Xe8&t=2411s) to help create my project
+
+ - I also received help from the following slack users for minor bugs or style changes inc21, Tatiana Ruffo, Dave T, Jo_ci and I received a lot of help and advice from my mentor Gareth McGirr and from Paul Thomas our cohort leader.
