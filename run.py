@@ -202,6 +202,7 @@ def begin():
 
     elif option1 == "c":
         inventory()
+        begin()
 
     elif option1 == "q":
         fin()
@@ -224,6 +225,7 @@ def begin():
             begin()
         elif option1 == "c":
             inventory()
+            begin()
         elif option1 == "q":
             fin()
         else:
@@ -274,6 +276,7 @@ def firstMove():
 
     elif option2a == "c":
         inventory()
+        firstmove()
 
     elif option2a == "q":
         print()
