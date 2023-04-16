@@ -83,7 +83,7 @@ def start():
     time.sleep(a)
     print()
     global name
-    name = input("Insert Username here: ")
+    name = input("Insert Username here: \n")
     print()
     print("Best of luck " + name)
     print()
@@ -95,7 +95,7 @@ def start():
     print()
     print("Press 'i' to see the instructions")
     print()
-    ready = input("Are you ready to begin? Y/N ").lower().strip()
+    ready = input("Are you ready to begin? Y/N \n").lower().strip()
 
     if ready == "y":
         #This will start the game for the player using imready() function
@@ -119,7 +119,7 @@ def start():
 
     else:
         validation()
-        ready = input("Are you ready to begin? Y/N ").lower().strip()
+        ready = input("Are you ready to begin? Y/N \n").lower().strip()
         if ready == "y":
             imready()
         elif ready == "n":
@@ -180,7 +180,7 @@ def begin():
     time.sleep(b)
     print("Your feet have been shackled together")
     time.sleep(a)
-    option1 = input("What will you do? Try to 'move' or 'stay' where you are?  ").lower().strip()
+    option1 = input("What will you do? Try to 'move' or 'stay' where you are?  \n").lower().strip()
     print()
 
     if option1 == "move":
@@ -209,7 +209,7 @@ def begin():
 
     else:
         validation()
-        option1 = input("What will you do? Try to 'move' or 'stay' where you are?  ").lower().strip()
+        option1 = input("What will you do? Try to 'move' or 'stay' where you are?  \n").lower().strip()
         print()
         if option1 == "move":
             firstMove()
@@ -230,7 +230,7 @@ def begin():
             fin()
         else:
             validation()
-            option1 = input("What will you do? Try to 'move' or 'stay' where you are?  ").lower().strip()
+            option1 = input("What will you do? Try to 'move' or 'stay' where you are?  \n").lower().strip()
             print()
 
 
@@ -254,7 +254,7 @@ def firstMove():
     print("There is a torch on the wall")
     print()
     time.sleep(a)
-    option2a = input("Do you 'take' it or 'stay' where you are?  ").lower().strip()
+    option2a = input("Do you 'take' it or 'stay' where you are?  \n").lower().strip()
 
     if option2a == 'take':
         # take user to take function to progress the story line
@@ -305,7 +305,7 @@ def take():
     print("but you can only see half of it")
     time.sleep(b)
     print()
-    option3 = input("Do you want to 'search' the dungeon or 'stay' where you are?  ").lower().strip()
+    option3 = input("Do you want to 'search' the dungeon or 'stay' where you are?  \n").lower().strip()
     print()
 
     if option3 == 'search':
@@ -320,7 +320,7 @@ def take():
         print("The torch continues to burn")
         time.sleep(a)
         print()
-        wait = input("Do you 'search' the room or 'wait' where you are?  ").lower().strip()
+        wait = input("Do you 'search' the room or 'wait' where you are?  \n").lower().strip()
 
         if wait == 'search':
             #take the user to the search function
@@ -348,10 +348,10 @@ def take():
             time.sleep(c)
             start()
 
-        elif input == "c":
+        elif wait == "c":
             inventory()
 
-        elif input == "q":
+        elif wait == "q":
             print()
             time.sleep(a)
             print("Thank you for playing " + name)
@@ -378,7 +378,7 @@ def search():
     time.sleep(a)
     print("You come across a set of keys on the wall")
     print()
-    keys = input("Do you 'take' them or 'leave' them?  ")
+    keys = input("Do you 'take' them or 'leave' them?  \n")
 
     if keys == 'take':
         #take users to the keyWest function to progress the storyline
@@ -393,7 +393,7 @@ def search():
         print()
         time.sleep(b)
         print("Are you sure you don't want to take those keys?")
-        key2 = input("Do you take the keys?   Y/N ").lower().strip()
+        key2 = input("Do you take the keys?   Y/N \n").lower().strip()
 
         if key2 == 'y':
             keyWest()
@@ -407,10 +407,10 @@ def search():
             time.sleep(c)
             start()
         
-        elif input == "c":
+        elif key2 == "c":
             inventory()
 
-        elif input == "q":
+        elif key2 == "q":
             print()
             time.sleep(a)
             print("Thank you for playing " + name)
@@ -421,10 +421,10 @@ def search():
             time.sleep(c)
             exit()
 
-    elif input == "c":
+    elif keys == "c":
         inventory()
 
-    elif input == "q":
+    elif keys == "q":
         print()
         time.sleep(a)
         print("Thank you for playing " + name)
@@ -472,7 +472,7 @@ def keyWest():
     print()
     time.sleep(b)
     print("It feels good to be partly free")
-    nextChoice = input("What will you do next? 'search' the room or 'rest'   ")
+    nextChoice = input("What will you do next? 'search' the room or 'rest'   \n")
 
     if nextChoice == 'search':
         # player can choose to search the room and are brought to findChest function
@@ -493,10 +493,10 @@ def keyWest():
         time.sleep(c)
         start()
 
-    elif input == "c":
+    elif nextChoice == "c":
         inventory()
 
-    elif input == "q":
+    elif nextChoice == "q":
         print()
         time.sleep(a)
         print("Thank you for playing " + name)
@@ -522,7 +522,7 @@ def findChest():
     print("As you approach the chest you hear a noise behind you")
     print()
     time.sleep(c)
-    check = input("Do you 'open' the chest or 'investigate' the noise?   ")
+    check = input("Do you 'open' the chest or 'investigate' the noise?   \n")
 
     if check == 'open':
         open_chest()
@@ -530,10 +530,10 @@ def findChest():
     elif check == 'investigate':
         investigate()
 
-    elif input == "c":
+    elif check == "c":
         inventory()
 
-    elif input == "q":
+    elif check == "q":
         print()
         time.sleep(a)
         print("Thank you for playing " + name)
@@ -607,7 +607,7 @@ def open_chest():
     time.sleep(b)
     print()
     global weapon
-    weapon = input("Do you take the 'sword' or the 'spear'?   ").lower().strip()
+    weapon = input("Do you take the 'sword' or the 'spear'?   \n").lower().strip()
 
     if weapon == "sword":
         sword()
@@ -615,10 +615,10 @@ def open_chest():
     elif weapon == "spear":
         spear()
 
-    elif input == "c":
+    elif weapon == "c":
         inventory()
 
-    elif input == "q":
+    elif weapon == "q":
         print()
         time.sleep(a)
         print("Thank you for playing " + name)
@@ -650,7 +650,7 @@ def sword():
     print()
     print("They are holding a torch and a bow")
     time.sleep(c)
-    gobby = input("What will you do? 'stay' or 'charge' at the goblin?    ").lower().strip()
+    gobby = input("What will you do? 'stay' or 'charge' at the goblin?   \n ").lower().strip()
 
     if gobby == "stay":
         stay_death()
@@ -658,10 +658,10 @@ def sword():
     elif gobby == "charge":
         sword_death()
 
-    elif input == "c":
+    elif gobby == "c":
         inventory()
 
-    elif input == "q":
+    elif gobby == "q":
         print()
         time.sleep(a)
         print("Thank you for playing " + name)
@@ -760,7 +760,7 @@ def spear():
     print()
     print("They are holding a torch and a bow")
     time.sleep(c)
-    spear_gang = input("What will you do? 'stay' or 'throw' your spear at the goblin?    ").lower().strip()
+    spear_gang = input("What will you do? 'stay' or 'throw' your spear at the goblin?   \n ").lower().strip()
 
     if spear_gang == "stay":
         stay_death()
@@ -768,10 +768,10 @@ def spear():
     elif spear_gang == "throw":
         impale()
 
-    elif input == "c":
+    elif spear_gang == "c":
         inventory()
 
-    elif input == "q":
+    elif spear_gang == "q":
         print()
         time.sleep(a)
         print("Thank you for playing " + name)
