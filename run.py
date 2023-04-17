@@ -660,6 +660,7 @@ def sword_death():
     print()
     print("Game Over")
     time.sleep(c)
+    fin()
     
 
 
