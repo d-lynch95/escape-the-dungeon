@@ -111,11 +111,13 @@ def start():
     elif ready == "n":
         # This will restart the game if players arent ready to play
         notready()
-        
+
     elif ready == "i":
-        # This will allow user to see the instructions to the game and understand how to play     
+        """
+         This will allow user to see the instructions to the game and understand how to play
+         """
         instructions()
-    
+
     elif input == "c":
         # This will show the player the current items in their inventory
         inventory()
