@@ -750,7 +750,11 @@ def spear():
     print()
     print("They are holding a torch and a bow")
     time.sleep(c)
-    spear_gang = input("What will you do? 'stay' or 'throw' your spear at the goblin?   \n ").lower().strip()
+    print()
+    print("What will you do? ")
+    time.sleep(b)
+    print()
+    spear_gang = input("'Stay' or 'throw' your spear at the goblin? \n ").lower().strip()
 
     if spear_gang == "stay":
         stay_death()
