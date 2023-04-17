@@ -9,7 +9,8 @@ import os
 # import colorama
 # from colorama import Fore, Back, Style
 
-#Inventory is a list that shows users the items they have collected throughout the game
+# Inventory is a list that shows items users have collected throughout the game
+
 global inventorylist
 inventorylist = ['There is nothing in your inventory']
 
