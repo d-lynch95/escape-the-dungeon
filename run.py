@@ -467,21 +467,14 @@ def keyWest():
         print("GAME OVER")
         print()
         time.sleep(c)
-        start()
+        fin()
 
     elif nextChoice == "c":
         inventory()
+        keyWest()
 
     elif nextChoice == "q":
-        print()
-        time.sleep(a)
-        print("Thank you for playing " + name)
-        print()
-        time.sleep(b)
-        print("See you again soon")
-        print()
-        time.sleep(c)
-        exit()
+        fin()
 
 def findChest():
     # This function progresses the storyline as player finds a large chest
@@ -508,20 +501,14 @@ def findChest():
 
     elif check == "c":
         inventory()
+        findChest()
 
     elif check == "q":
-        print()
-        time.sleep(a)
-        print("Thank you for playing " + name)
-        print()
-        time.sleep(b)
-        print("See you again soon")
-        print()
-        time.sleep(c)
-        exit()
+        fin()
 
     else:
-        print("Here it goes again")
+        validation()
+        findChest()
 
 def investigate():
     # function results in a game over as player is killed by goblin
@@ -548,10 +535,7 @@ def investigate():
     print("GAME OVER")
     print()
     time.sleep(c)
-    start()
-
-
-
+    fin()
 
 def open_chest():
     """
@@ -593,20 +577,14 @@ def open_chest():
 
     elif weapon == "c":
         inventory()
+        open_chest()
 
     elif weapon == "q":
-        print()
-        time.sleep(a)
-        print("Thank you for playing " + name)
-        print()
-        time.sleep(b)
-        print("See you again soon")
-        print()
-        time.sleep(c)
-        exit()
+        fin()
 
     else:
-        print("Insert input validation")
+        validation()
+        open_chest()
 
 def sword():
     print()
