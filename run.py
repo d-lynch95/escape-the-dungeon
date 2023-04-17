@@ -105,23 +105,23 @@ def start():
     ready = input("Are you ready to begin? Y/N \n").lower().strip()
 
     if ready == "y":
-        #This will start the game for the player using imready() function
+        # This will start the game for the player using imready() function
         imready()
 
     elif ready == "n":
-        #This will restart the game if players arent ready to play
+        # This will restart the game if players arent ready to play
         notready()
         
     elif ready == "i":
-        #This will allow user to see the instructions to the game and understand how to play     
+        # This will allow user to see the instructions to the game and understand how to play     
         instructions()
     
     elif input == "c":
-        #This will show the player the current items in their inventory
+        # This will show the player the current items in their inventory
         inventory()
 
     elif input == "q":
-        #This allows the player to exit the game
+        # This allows the player to exit the game
         fin()
 
     else:
