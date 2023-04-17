@@ -279,21 +279,15 @@ def firstMove():
         firstmove()
 
     elif option2a == "q":
-        print()
-        time.sleep(a)
-        print("Thank you for playing " + name)
-        print()
-        time.sleep(b)
-        print("See you again soon")
-        print()
-        time.sleep(c)
-        exit()
+        fin()
 
     else:
+        validation()
         firstMove()
 
 def take():
     # this function allows the user to take the torch and decide to stay or move
+    
     print()
     time.sleep(a)
     print("You take the torch from it's sconce")
@@ -350,6 +344,7 @@ def take():
 
         elif wait == "c":
             inventory()
+            take()
 
         elif wait == "q":
             print()
