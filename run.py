@@ -477,9 +477,9 @@ def keyWest():
     choice = input("What will you do next? 'search' the room or 'rest'? \n")
 
     if choice == 'search':
-        # player can choose to search the room and are brought to findChest function
+        # player can search the room and are brought to findChest function
         findChest()
-    
+
     elif choice == 'rest':
         # if player chooses to rest the game will end as this is a dead end
         print()
@@ -502,10 +502,14 @@ def keyWest():
     elif choice == "q":
         fin()
 
+
 def findChest():
-    # This function progresses the storyline as player finds a large chest
+    # This function progresses the storyline as player finds a chest
     print()
-    print("With your new found freedom and torch in hand you stride around the room")
+    print("With your new found freedom...")
+    time.sleep(a)
+    print()
+    print("..and torch in hand you stride around the room")
     time.sleep(c)
     print()
     print("The dungeon is larger than you had originally suspected")
