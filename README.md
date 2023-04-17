@@ -5,7 +5,7 @@ Escape the dungeon is a text based adventure game designed to enthral and deligh
 
 
 [Live Website](https://escape-the-dungeon.herokuapp.com/)
-![AmiResponsive Mockup](assets/images/features/cph-responsive.png)
+![AmiResponsive Mockup](assets/media/dungeonresponsive.png)
 
 ## User Goals and Stories
 
