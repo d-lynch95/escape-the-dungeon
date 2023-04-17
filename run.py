@@ -571,8 +571,10 @@ def investigate():
 
 def open_chest():
     """
-    In this function the player opens the chest and has the option to select a weapon
-    The weapon input is a global variable to allow it to be used later in the story
+    In this function the player opens the chest.
+    Player them has the option to select a weapon.
+    The weapon input is a global variable.
+    This allows it to be used later in the story.
     """
     print()
     time.sleep(b)
@@ -599,7 +601,7 @@ def open_chest():
     time.sleep(b)
     print()
     global weapon
-    weapon = input("Do you take the 'sword' or the 'spear'?   \n").lower().strip()
+    weapon = input("Do you take the 'sword' or the 'spear'? \n").lower().strip()
 
     if weapon == "sword":
         sword()
