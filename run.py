@@ -287,7 +287,7 @@ def firstMove():
 
 def take():
     # this function allows the user to take the torch and decide to stay or move
-    
+    inventorylist.append('torch')
     print()
     time.sleep(a)
     print("You take the torch from it's sconce")
@@ -316,11 +316,11 @@ def take():
         print()
         wait = input("Do you 'search' the room or 'wait' where you are?  \n").lower().strip()
 
-        if wait == 'search':
+        if option3 == 'search':
             #take the user to the search function
             search()
         
-        elif wait == 'wait':
+        elif option3 == 'wait':
             # if the player chooses this option the game will end
             print()
             time.sleep(a)
@@ -340,24 +340,17 @@ def take():
             print("GAME OVER")
             print()
             time.sleep(c)
-            start()
+            fin()
 
-        elif wait == "c":
+        elif option3 == "c":
             inventory()
             take()
 
         elif wait == "q":
-            print()
-            time.sleep(a)
-            print("Thank you for playing " + name)
-            print()
-            time.sleep(b)
-            print("See you again soon")
-            print()
-            time.sleep(c)
-            exit()
+            fin()
 
         else:
+            validation()
             take()
 
 def search():
