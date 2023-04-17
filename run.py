@@ -225,10 +225,10 @@ def begin():
         print("What will you do?")
         print()
         time.sleep(a)
-        option1 = input("Do you 'move' or 'stay' where you are?\n").lower().strip()
+        option1 = input("Do you 'move' or 'stay'? \n").lower().strip()
         if option1 == "move":
             firstMove()
-        elif option1 == "stay": 
+        elif option1 == "stay":
             time.sleep(a)
             print("Nothing happens")
             print()
@@ -245,7 +245,10 @@ def begin():
             fin()
         else:
             validation()
-            option1 = input("What will you do? Try to 'move' or 'stay' where you are?  \n").lower().strip()
+            print("What will you do? ")
+            time.sleep(a)
+            print()
+            option1 = input("Do you 'move' or 'stay'? \n").lower().strip()
             print()
 
 
