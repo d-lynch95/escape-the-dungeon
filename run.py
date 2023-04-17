@@ -365,6 +365,7 @@ def search():
     print()
     time.sleep(a)
     print("You come across a set of keys on the wall")
+    inventorylist.append('keys')
     print()
     keys = input("Do you 'take' them or 'leave' them?  \n")
 
@@ -397,34 +398,21 @@ def search():
         
         elif key2 == "c":
             inventory()
+            search()
 
         elif key2 == "q":
-            print()
-            time.sleep(a)
-            print("Thank you for playing " + name)
-            print()
-            time.sleep(b)
-            print("See you again soon")
-            print()
-            time.sleep(c)
-            exit()
+            fin()
 
     elif keys == "c":
         inventory()
+        search()
 
     elif keys == "q":
-        print()
-        time.sleep(a)
-        print("Thank you for playing " + name)
-        print()
-        time.sleep(b)
-        print("See you again soon")
-        print()
-        time.sleep(c)
-        exit()
+        fin()
     
     else:
-        print("potato")
+        validation()
+        search()
 
 def keyWest(): 
     #player will unlock the shackles from their feet in this formula
