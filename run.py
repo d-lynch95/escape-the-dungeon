@@ -721,17 +721,10 @@ def spear():
 
     elif spear_gang == "c":
         inventory()
+        spear()
 
     elif spear_gang == "q":
-        print()
-        time.sleep(a)
-        print("Thank you for playing " + name)
-        print()
-        time.sleep(b)
-        print("See you again soon")
-        print()
-        time.sleep(c)
-        exit()
+        fin()
 
     else:
         print("input validation")
