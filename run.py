@@ -754,7 +754,7 @@ def spear():
 
     if spear_gang == "stay":
         stay_death()
-    
+
     elif spear_gang == "throw":
         impale()
 
@@ -767,6 +767,7 @@ def spear():
 
     else:
         print("input validation")
+
 
 def impale():
     print()
@@ -810,5 +811,3 @@ def impale():
 
 
 start()
-
-
