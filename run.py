@@ -114,7 +114,8 @@ def start():
 
     elif ready == "i":
         """
-         This will allow user to see the instructions to the game and understand how to play
+         This will allow user to see the instructions to the game.
+         This will help user to understand how to play
          """
         instructions()
 
@@ -190,16 +191,19 @@ def begin():
     time.sleep(b)
     print("Your feet have been shackled together")
     time.sleep(a)
-    option1 = input("What will you do? Try to 'move' or 'stay' where you are?  \n").lower().strip()
+    print("What will you do?")
+    print()
+    time.sleep(a)
+    option1 = input("Do you 'move' or 'stay' where you are?\n").lower().strip()
     print()
 
     if option1 == "move":
-        #take player to firstMove()
+        # take player to firstMove()
         firstMove()
-        
+
 
     elif option1 == "stay":
-        #resets the game if the player opts to stay 
+        # resets the game if the player opts to stay 
         time.sleep(a)
         print("Nothing happens")
         print()
