@@ -323,7 +323,7 @@ def take():
     print("but you can only see half of it")
     time.sleep(b)
     print()
-    option3 = input("Do you want to 'search' the dungeon or 'stay' where you are?  \n").lower().strip()
+    option3 = input("Do you 'search' the dungeon or 'stay'?  \n").lower().strip()
     print()
 
     if option3 == 'search':
@@ -338,7 +338,7 @@ def take():
         print("The torch continues to burn")
         time.sleep(a)
         print()
-        wait = input("Do you 'search' the room or 'wait' where you are?  \n").lower().strip()
+        wait = input("Do you 'search' the room or 'wait'?  \n").lower().strip()
 
         if option3 == 'search':
             #take the user to the search function
