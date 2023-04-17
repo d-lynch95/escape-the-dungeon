@@ -648,7 +648,7 @@ def sword():
 
     if gobby == "stay":
         stay_death()
-    
+
     elif gobby == "charge":
         sword_death()
 
@@ -660,8 +660,8 @@ def sword():
         fin()
 
     else:
-       validation()
-       sword()
+        validation()
+        sword()
 
 
 def sword_death():
@@ -700,7 +700,6 @@ def sword_death():
     print("Game Over")
     time.sleep(c)
     fin()
-    
 
 
 def stay_death():
@@ -731,6 +730,7 @@ def stay_death():
     print()
     time.sleep(c)
     fin()
+
 
 def spear():
     print()
