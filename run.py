@@ -601,7 +601,7 @@ def open_chest():
     time.sleep(b)
     print()
     global weapon
-    weapon = input("Do you take the 'sword' or the 'spear'? \n").lower().strip()
+    weapon = input("Do you take the 'sword' or the 'spear'?\n").lower().strip()
 
     if weapon == "sword":
         sword()
@@ -619,6 +619,7 @@ def open_chest():
     else:
         validation()
         open_chest()
+
 
 def sword():
     inventorylist.append('sword')
@@ -639,7 +640,11 @@ def sword():
     print()
     print("They are holding a torch and a bow")
     time.sleep(c)
-    gobby = input("What will you do? 'stay' or 'charge' at the goblin?   \n ").lower().strip()
+    print()
+    print("What will you do? ")
+    time.sleep(b)
+    print()
+    gobby = input("'Stay' or 'charge' at the goblin?   \n ").lower().strip()
 
     if gobby == "stay":
         stay_death()
