@@ -308,7 +308,9 @@ def firstMove():
 
 
 def take():
-    # this function allows the user to take the torch and decide to stay or move
+    """
+    This function allows the user to take the torch and decide to stay or move
+    """
     inventorylist.append('torch')
     print()
     time.sleep(a)
