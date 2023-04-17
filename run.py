@@ -323,7 +323,7 @@ def take():
     print("but you can only see half of it")
     time.sleep(b)
     print()
-    option3 = input("Do you 'search' the dungeon or 'stay'?  \n").lower().strip()
+    option3 = input("Do you 'search' the dungeon or 'stay'?\n").lower().strip()
     print()
 
     if option3 == 'search':
@@ -341,9 +341,9 @@ def take():
         wait = input("Do you 'search' the room or 'wait'?  \n").lower().strip()
 
         if option3 == 'search':
-            #take the user to the search function
+            # take the user to the search function
             search()
-        
+
         elif option3 == 'wait':
             # if the player chooses this option the game will end
             print()
@@ -377,6 +377,7 @@ def take():
             validation()
             take()
 
+
 def search():
     # this function allows the player to search the room
     print("You shuffle across the room")
@@ -394,7 +395,7 @@ def search():
     keys = input("Do you 'take' them or 'leave' them?  \n")
 
     if keys == 'take':
-        #take users to the keyWest function to progress the storyline
+        # take users to the keyWest function to progress the storyline
         keyWest()
 
     elif keys == 'leave':
@@ -419,7 +420,7 @@ def search():
             print("GAME OVER")
             time.sleep(c)
             start()
-        
+
         elif key2 == "c":
             inventory()
             search()
@@ -433,13 +434,14 @@ def search():
 
     elif keys == "q":
         fin()
-    
+
     else:
         validation()
         search()
 
-def keyWest(): 
-    #player will unlock the shackles from their feet in this formula
+
+def keyWest():
+    # player will unlock the shackles from their feet in this formula
     print()
     print("You take the keys and crouch down")
     print()
@@ -472,13 +474,13 @@ def keyWest():
     print()
     time.sleep(b)
     print("It feels good to be partly free")
-    nextChoice = input("What will you do next? 'search' the room or 'rest'   \n")
+    choice = input("What will you do next? 'search' the room or 'rest'? \n")
 
-    if nextChoice == 'search':
+    if choice == 'search':
         # player can choose to search the room and are brought to findChest function
         findChest()
     
-    elif nextChoice == 'rest':
+    elif choice == 'rest':
         # if player chooses to rest the game will end as this is a dead end
         print()
         print("You lie down on the slimy stone floor to rest")
@@ -493,11 +495,11 @@ def keyWest():
         time.sleep(c)
         fin()
 
-    elif nextChoice == "c":
+    elif choice == "c":
         inventory()
         keyWest()
 
-    elif nextChoice == "q":
+    elif choice == "q":
         fin()
 
 def findChest():
