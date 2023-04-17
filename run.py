@@ -587,6 +587,7 @@ def open_chest():
         open_chest()
 
 def sword():
+    inventorylist.append('sword')
     print()
     print("You take the " + weapon + " from the chest")
     print()
@@ -614,20 +615,14 @@ def sword():
 
     elif gobby == "c":
         inventory()
+        sword()
 
     elif gobby == "q":
-        print()
-        time.sleep(a)
-        print("Thank you for playing " + name)
-        print()
-        time.sleep(b)
-        print("See you again soon")
-        print()
-        time.sleep(c)
-        exit()
+        fin()
 
     else:
-        print("invalid input girl")
+       validation()
+       sword()
 
 
 def sword_death():
