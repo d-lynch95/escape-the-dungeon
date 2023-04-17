@@ -18,16 +18,19 @@ a = 1
 b = 2
 c = 3
 
+
 def clearConsole():
     """
     Clears the console.
     """
     os.system('cls' if os.name == 'nt' else 'clear')
 
+
 def inventory():
     time.sleep(c)
     print(inventorylist)
     time.sleep(c)
+
 
 def validation():
     print()
@@ -36,6 +39,7 @@ def validation():
     time.sleep(b)
     print()
     print("Please select another input option")
+
 
 def imready():
     time.sleep(a)
@@ -57,6 +61,7 @@ def notready():
     time.sleep(c)
     start()  
 
+
 def fin():
     print()
     time.sleep(a)
@@ -67,6 +72,7 @@ def fin():
     print()
     time.sleep(c)
     quit()
+
 
 def start():
     """
@@ -163,6 +169,7 @@ def instructions():
     print("Best of luck in Escape The Dungeon " + name)
     time.sleep(c)
     begin()
+
 
 def begin():
     """
