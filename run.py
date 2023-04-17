@@ -57,9 +57,9 @@ def notready():
     print("hmmmm")
     print("maybe this wasn't the place for you")
     time.sleep(a)
-    print("another time perhaps...")   
+    print("another time perhaps...")
     time.sleep(c)
-    start()  
+    start()
 
 
 def fin():
