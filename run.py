@@ -525,7 +525,7 @@ def findChest():
 
     if check == 'open':
         open_chest()
-    
+
     elif check == 'investigate':
         investigate()
 
@@ -539,6 +539,7 @@ def findChest():
     else:
         validation()
         findChest()
+
 
 def investigate():
     # function results in a game over as player is killed by goblin
@@ -566,6 +567,7 @@ def investigate():
     print()
     time.sleep(c)
     fin()
+
 
 def open_chest():
     """
