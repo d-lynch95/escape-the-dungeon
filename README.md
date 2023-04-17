@@ -166,14 +166,7 @@ This game flow and logic was designed using lucidchart. This was the first time 
 
 - I faced issues with timing of the text. The print statement within the functions were all executing at the same time and were creating issues. This was fixed using a time.sleep() code section.
 
-- There was a lot of bugs faced when outputting the results of formulas and I had to convert all of the data types using parseFloat() to ensure the data could be used for other calculations.
-
-- I had originally added a switch statement to calculate the commission per hour bonus however this would not run and was causing issues with other sections of my code. In the end I opted to remove this and instead use an if else statement.
-
-- I was receiving a lot of NaN errors when running the calculateAll function. This error was somehow being caused as the code was contained within details and summary tags. I removed the tags and the code started working correctly.
-
-- I faced a lot of contrast errors when checking accessibility. The original font was white on an orange background. Instead I opted for black text on the orange background.
-
+- I faced a lot of issues with using If Else statements and opted instead to use smaller functions such as the fin() and validation() functions as this allowed me to reuse code where possible.
 
 ### User Testing
 
