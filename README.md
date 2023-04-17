@@ -4,7 +4,7 @@
 Escape the dungeon is a text based adventure game designed to enthral and delight users. The game follows our heroes adventure as they awake in a dungeon and must follow the correct route to escape in one piece. Our hero will face approximately 10 decisions and only 1 path will take them to the exit. Our hero will need to explore the dungeon using a torch, find a set of keys to undo their shackles, find a wooden chest, select the correct weapon and then slay their captor in order to escape safely. This game is designed for users of all ages and is aimed to be completed within 10 minutes making it a quick and easy game that will keep players coming back for more
 
 
-[Live Website](https://d-lynch95.github.io/Portfolio2_CPH-calculator/)
+[Live Website](https://escape-the-dungeon.herokuapp.com/)
 ![AmiResponsive Mockup](assets/images/features/cph-responsive.png)
 
 ## User Goals and Stories
