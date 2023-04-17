@@ -691,6 +691,7 @@ def stay_death():
     print("GAME OVER")
     print()
     time.sleep(c)
+    fin()
 
 def spear():
     print()
