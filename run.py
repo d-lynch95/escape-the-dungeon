@@ -272,7 +272,10 @@ def firstMove():
     print("There is a torch on the wall")
     print()
     time.sleep(a)
-    option2a = input("Do you 'take' it or 'stay' where you are?  \n").lower().strip()
+    print("What do you do?")
+    print()
+    time.sleep(a)
+    option2a = input("'Take' it or 'stay' where you are?  \n").lower().strip()
 
     if option2a == 'take':
         # take user to take function to progress the story line
@@ -302,6 +305,7 @@ def firstMove():
     else:
         validation()
         firstMove()
+
 
 def take():
     # this function allows the user to take the torch and decide to stay or move
