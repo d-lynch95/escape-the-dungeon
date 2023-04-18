@@ -29,7 +29,7 @@ def inventory():
     if len(inventorylist) == 0:
         print("No items in the inventory")
     else:
-        for item in inventorylist
+        for item in inventorylist:
             print(item)
     time.sleep(c)
 
@@ -343,11 +343,11 @@ def take():
         print()
         wait = input("Do you 'search' the room or 'wait'?  \n").lower().strip()
 
-        if option3 == 'search':
+        if wait == 'search':
             # take the user to the search function
             search()
 
-        elif option3 == 'wait':
+        elif wait == 'wait':
             # if the player chooses this option the game will end
             print()
             time.sleep(a)
@@ -369,7 +369,7 @@ def take():
             time.sleep(c)
             fin()
 
-        elif option3 == "c":
+        elif wait == "c":
             inventory()
             take()
 
@@ -379,6 +379,17 @@ def take():
         else:
             validation()
             take()
+
+    elif option3 == "c":
+        inventory()
+        take()
+
+    elif wait == "q":
+        fin()
+
+    else:
+        validation()
+        take()
 
 
 def search():
