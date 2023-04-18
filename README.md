@@ -244,6 +244,33 @@ The live link can be found here - https://escape-the-dungeon.herokuapp.com/
   - The project will now of been cloned on your local machine for use.
 
 - Heroku 
+  - The project was deployed using Code Institutes mock terminal for Heroku
+
+  - Deployment steps:
+
+    - Fork or clone this repository.
+
+    - Ensure the Profile is in place.
+
+    - requirements.txt can be left empty as this project does not use any external libraries
+
+    - Create a new app in Heroku
+
+    - Select "New" and "Create new app"
+
+    - Name the new app and click "Create new app"
+
+    - In "Settings" select "BuildPack" and select Python and Node.js. (Python must be at the top of the list)
+
+    - Whilst still in "Settings", click "Reveal Config Vars" and input the folloing. KEY: PORT, VALUE: 8000. Nothing else is needed here as this project does not have any sensitive files
+
+    - Click on "Deploy" and select your deploy method and repository
+
+    - Click "Connect" on selected repository.
+
+    - Either choose "Enable Automatic Deploys" or "Deploy Branch" in the manual deploy section
+
+    - Heroku will now deploy the site
 
 
 ## Credits 
