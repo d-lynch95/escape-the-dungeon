@@ -10,7 +10,7 @@ import os
 # Inventory is a list that shows items users have collected throughout the game
 
 global inventorylist
-inventorylist = ['There is nothing in your inventory']
+inventorylist = []
 
 a = 1
 b = 2
