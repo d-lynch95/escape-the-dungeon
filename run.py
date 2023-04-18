@@ -6,8 +6,6 @@ import time
 import random
 import os
 
-# import colorama
-# from colorama import Fore, Back, Style
 
 # Inventory is a list that shows items users have collected throughout the game
 
@@ -28,7 +26,10 @@ def clearConsole():
 
 def inventory():
     time.sleep(c)
-    print(inventorylist)
+    if len(inventorylist) == 0:
+        print("No items in the inventory")
+    else:
+        print(inventorylist)
     time.sleep(c)
 
 
@@ -147,7 +148,7 @@ def instructions():
     print()
     print("You are trapped in a foul dungeon")
     print()
-    time.sleep(a)
+    time.sleep(b)
     print("You must use logic and wit to escape")
     print()
     time.sleep(b)
@@ -156,19 +157,20 @@ def instructions():
     time.sleep(b)
     print("Type the decision into the console to progress the story")
     print()
-    time.sleep(b)
+    time.sleep(c)
     print("If you type something else you will be prompted again")
     print()
-    time.sleep(b)
+    time.sleep(c)
     print("You also have an inventory during the game")
     print()
-    time.sleep(b)
+    time.sleep(c)
     print("Press 'c' to view your inventory during the game")
     print()
+    time.sleep(c)
     print("If you want to exit the game at anytime press 'q'")
     print()
     print()
-    time.sleep(b)
+    time.sleep(c)
     print("Best of luck in Escape The Dungeon " + name)
     time.sleep(c)
     begin()
