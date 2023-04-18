@@ -29,7 +29,8 @@ def inventory():
     if len(inventorylist) == 0:
         print("No items in the inventory")
     else:
-        print(inventorylist)
+        for item in inventorylist
+            print(item)
     time.sleep(c)
 
 
