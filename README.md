@@ -231,7 +231,7 @@ We ran a lot of tests on the different formulas. These tests are outlined in the
   - From the source section drop-down menu, select the Main Branch
   - Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://d-lynch95.github.io/Portfolio2_CPH-calculator/
+The live link can be found here - https://escape-the-dungeon.herokuapp.com/
 
 - Clone the Repository Code Locally
   - Navigate to the GitHub Repository you want to clone to use locally:
