@@ -748,6 +748,7 @@ def stay_death():
 
 def spear():
     print()
+    inventorylist.append("spear")
     print("You take the " + weapon + " from the chest")
     print()
     time.sleep(b)
@@ -826,6 +827,8 @@ def impale():
     time.sleep(b)
     print()
     print("Congratulations " + name + " you are finally free")
+    print()
+    time.sleep(c)
 
 
 start()
