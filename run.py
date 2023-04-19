@@ -714,6 +714,11 @@ def open_chest():
 
 
 def sword():
+    """
+    This function adds the sword item to players inventory.
+    Player will be killed as the sword option is not
+    a valid option to defeat the goblin in this story
+    """
     inventorylist.append('sword')
     print()
     print("You take the " + weapon + " from the chest")
@@ -757,6 +762,10 @@ def sword():
 
 
 def sword_death():
+    """
+    Player attacks the goblin but is killed
+    game ends using fin function
+    """
     print()
     time.sleep(b)
     print()
@@ -795,6 +804,11 @@ def sword_death():
 
 
 def stay_death():
+    """
+    Player holds their ground
+    Player is then slain by the goblin
+    Game ends using fin function
+    """
     print()
     time.sleep(b)
     print("You steady yourself and hold your ground")
