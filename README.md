@@ -288,6 +288,8 @@ The live link can be found here - https://escape-the-dungeon.herokuapp.com/
 
 - The outline template for the Python was provided by the [Code Institiute](https://www.codeinstitute.com)
 
+- I also took a lot of inspiration from the Code institute LoveSandwiches Walk through [Code Institiute](https://www.codeinstitute.com)
+
 - A lot of the python coding was done with help from the tutorial pages at [w3schools](https://www.w3schools.com/)
 
 - The tutor support team from codeinstitute were extremely helpful in helping me to overcome bugs in my code.
@@ -298,8 +300,10 @@ The live link can be found here - https://escape-the-dungeon.herokuapp.com/
 
 - I used the following projects as inspiration for my project. [Zombie Survival](https://github.com/JamesFahey/zombie-survival/blob/main/run.py)
 
+- I used the following tutorial for help with my requirements.txt file [LearnPython](https://learnpython.com/blog/python-requirements-file/)
+
 - Advice for creating global variables was taken from [Stack Overflow](https://stackoverflow.com/questions/50433604/how-do-i-store-an-input-as-a-global-variable)
 
 - I used the following Youtube tutorials [Choose your own Adventure](https://www.youtube.com/watch?v=DEcFCn2ubSg) and [Time unravelled](https://www.youtube.com/watch?v=ypNFNr72Xe8&t=2411s) to help create my project
 
- - I also received help from the following slack users for minor bugs or style changes inc21, Tatiana Ruffo, Dave T, Jo_ci and I received a lot of help and advice from my mentor Gareth McGirr and from Paul Thomas our cohort leader.
+ - I also received help from the following slack users for minor bugs or style changes inc21, Tatiana Ruffo, Dave T, Laura, Jo_ci and I received a lot of help and advice from my mentor Gareth McGirr and from Paul Thomas our cohort leader.
