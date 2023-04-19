@@ -29,6 +29,12 @@ def clearConsole():
 
 
 def inventory():
+    """
+    This function shows a list of items collected.
+    If nothing has been collected it prints a string.
+    If items have been collected the for loop prints.
+    The for loop iterates through items collected.
+    """
     time.sleep(c)
     if len(inventorylist) == 0:
         print("No items in the inventory")
@@ -39,6 +45,11 @@ def inventory():
 
 
 def validation():
+    """
+    This function prints if user inputs invalid option
+    This will reprompt the user to inout a valid option
+    This keeps gameplay smooth and on track
+    """
     print()
     time.sleep(a)
     print("That's not a valid input")
@@ -48,6 +59,10 @@ def validation():
 
 
 def imready():
+    """
+    This function prints when user has input Y to begin game
+    The game will begin after the welcome message
+    """
     time.sleep(a)
     print()
     print()
@@ -58,6 +73,11 @@ def imready():
 
 
 def notready():
+    """
+    This prints if user is not ready to play
+    The game will exit and restart
+    This gives the user the option to restart the game
+    """
     time.sleep(b)
     print()
     print("hmmmm")
@@ -69,6 +89,12 @@ def notready():
 
 
 def fin():
+    """
+    This function runs everytime the game ends
+    Function also runs if user presses q to exit the game
+    this function thanks the user for playing.
+    The function then exits the application
+    """
     print()
     time.sleep(a)
     print("Thank you for playing " + name)
@@ -151,6 +177,7 @@ def start():
 def instructions():
     """
     This function is run to explain the gameplay to players
+    The function will the automatically start the game
     """
     print()
     print("You are trapped in a foul dungeon")
