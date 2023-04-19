@@ -26,10 +26,6 @@ def clearConsole():
     os.system('cls' if os.name == 'nt' else 'clear')
 
 
-title = pyfiglet.figlet_format("Escape The Dungeon")
-print(title)
-
-
 def inventory():
     time.sleep(c)
     if len(inventorylist) == 0:
@@ -88,6 +84,8 @@ def start():
     Users will understand the purpose of the game and input their name.
     """
     clearConsole()
+    title = pyfiglet.figlet_format("Escape The Dungeon", font="tombstone")
+    print(title)
     print("Welcome to the dungeon")
     time.sleep(a)
     print("Can you escape in one piece?")

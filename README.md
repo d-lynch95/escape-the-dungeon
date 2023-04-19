@@ -292,6 +292,8 @@ The live link can be found here - https://escape-the-dungeon.herokuapp.com/
 
 - The tutor support team from codeinstitute were extremely helpful in helping me to overcome bugs in my code.
 
+- The advice on pyfiglet installation came from [CodeSnail](https://www.codesnail.com/text-to-ascii-art-using-python/)
+
 - I used countless stack overflow entries to help me to solve minor python related bugs.
 
 - I used the following projects as inspiration for my project. [Zombie Survival](https://github.com/JamesFahey/zombie-survival/blob/main/run.py)
