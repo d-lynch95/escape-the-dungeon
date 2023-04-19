@@ -839,6 +839,13 @@ def stay_death():
 
 
 def spear():
+    """
+    This function runs if player selects spear as their weapon
+    Spear is then added to inventory list.
+    If player selects throw input option they win the game.
+    If player selects stay input option they are killed.
+    Stay function is the same for both sword and spear input
+    """
     print()
     inventorylist.append("spear")
     print("You take the " + weapon + " from the chest")
