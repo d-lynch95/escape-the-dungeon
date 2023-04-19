@@ -98,11 +98,11 @@ This game flow and logic was designed using lucidchart. This was the first time 
 
 ### Existing Features
 
-- __Header__
+- __Title Graphic__
 
-  - This section clearly shows the  company logo allowing users to instantly recognise the brand. The header also includes a title clearly displaying that the website is a "Pay calculator"
+  - This graphic uses ascii text to create a large graphic that shows the game title "Escape The Dungeon". This graphic adds to the user experience and adds more flair than a simple text based game.
 
-![Header](assets/images/features/title.webp)
+![Title Graphic](assets/features/ASCII-text.webp)
 
 - __Instructions section__
 
