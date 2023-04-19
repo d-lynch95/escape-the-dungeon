@@ -181,16 +181,6 @@ The site was tested on chrome, safari and opera browsers on desktop without any 
 
 ### Validator Testing 
 
-- HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fd-lynch95.github.io%2FPortfolio2_CPH-calculator%2F)
-  ![Index page](assets/images/accessibility/html%20checker.png)
-
-  
-  -
-- CSS
-  - No errors were found when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fd-lynch95.github.io%2FPortfolio2_CPH-calculator%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-  ![Index page](assets/images/accessibility/css%20validator.png)
-
 - Python
   - No errors were found when passing through the [CI code linter](https://pep8ci.herokuapp.com/#)
   ![CI python Code Linter](assets/features/Python-Validation.webp)
