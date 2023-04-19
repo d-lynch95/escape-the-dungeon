@@ -153,9 +153,11 @@ This game flow and logic was designed using lucidchart. This was the first time 
 
 ### Features Left to Implement
 
-- I would like to format the server in the future to accept form submissions and allow the site owner to view users form submissions.
+- I would like to add a typewriter effect to the game when I have more time to develop it.
 
-- I would like to implement a feature that will calculate the tax due for local residents as opposed to working holiday makers. This would require the assistance of subject matter experts to advise on the correct taxation brackets. I will look at adding this feature in a future release.
+- I would like to add more path directions to expand on the story.
+
+- I would also like to add more options and more interactivity with the inventory items. The user currently has two keys remaining and I would like to add more options for these keys when time permits.
 
 ## Testing 
 
