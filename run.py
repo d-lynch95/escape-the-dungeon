@@ -7,6 +7,8 @@ import random
 import os
 
 import pyfiglet
+import colorama
+from colorama import Fore,Back,Style
 
 
 # Inventory is a list that shows items users have collected throughout the game
