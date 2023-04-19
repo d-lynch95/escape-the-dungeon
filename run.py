@@ -343,7 +343,7 @@ def firstMove():
     elif option2a == "c":
         # Shows items in the inventory and then reloops function
         inventory()
-        firstmove()
+        firstMove()
 
     elif option2a == "q":
         # allows players to quit the game
