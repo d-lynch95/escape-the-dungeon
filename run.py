@@ -9,7 +9,7 @@ import os
 import pyfiglet
 import colorama
 from colorama import Fore,Back,Style
-colorama.init()
+colorama.init(autoreset=True)
 
 
 # Inventory is a list that shows items users have collected throughout the game
