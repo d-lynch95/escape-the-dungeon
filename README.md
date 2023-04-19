@@ -164,7 +164,7 @@ This game flow and logic was designed using lucidchart. This was the first time 
 ### BUGS
  - I encountered several bugs while creating this project.
 
-- I encountered a lot of difficulty when creating functions during this project. Having just come from learning JS I was having lots of issues with correct function formatting.
+- I encountered a lot of difficulty when creating functions during this project. Having just come from learning JS I was having lots of issues with correct function formatting. This was fixed using tutorials from w3 schools.
 
 - I faced issues with timing of the text. The print statement within the functions were all executing at the same time and were creating issues. This was fixed using a time.sleep() code section.
 
@@ -192,7 +192,8 @@ The site was tested on chrome, safari and opera browsers on desktop without any 
   ![Index page](assets/images/accessibility/css%20validator.png)
 
 - Python
-  - 
+  - No errors were found when passing through the [CI code linter](https://pep8ci.herokuapp.com/#)
+  ![CI python Code Linter](assets/features/Python-Validation.webp)
 
 ### Manual Testing
 
