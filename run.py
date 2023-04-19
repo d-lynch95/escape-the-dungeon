@@ -468,6 +468,7 @@ def search():
         keyWest()
 
     elif keys == 'leave':
+        # players leave keys and story stagnates. Reprompt to take key
         print()
         time.sleep(a)
         print("You leave the keys on the wall")
@@ -479,8 +480,10 @@ def search():
         key2 = input("Do you take the keys?   Y/N \n").lower().strip()
 
         if key2 == 'y':
+            # take players to keyWest function to progress story
             keyWest()
         elif key2 == 'n':
+            # end game as players leave keys behind twice
             print()
             print("You leave the keys where they are")
             time.sleep(a)
@@ -491,20 +494,25 @@ def search():
             start()
 
         elif key2 == "c":
+            # show inventory and reloop function
             inventory()
             search()
 
         elif key2 == "q":
+            # end game
             fin()
 
     elif keys == "c":
+        # show inventory and reloop function
         inventory()
         search()
 
     elif keys == "q":
+        # end game
         fin()
 
     else:
+        # inform player of wrong input and reloop function
         validation()
         search()
 
