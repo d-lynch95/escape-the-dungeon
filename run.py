@@ -6,6 +6,8 @@ import time
 import random
 import os
 
+import pyfiglet
+
 
 # Inventory is a list that shows items users have collected throughout the game
 
@@ -22,6 +24,10 @@ def clearConsole():
     Clears the console.
     """
     os.system('cls' if os.name == 'nt' else 'clear')
+
+
+title = pyfiglet.figlet_format("Escape The Dungeon")
+print(title)
 
 
 def inventory():
