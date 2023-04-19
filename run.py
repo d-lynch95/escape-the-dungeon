@@ -213,6 +213,7 @@ def instructions():
 def begin():
     """
     This function sets the scene for the players.
+    Players will then input their first decision 
     """
     clearConsole()
     print("You wake up in a dark decrepid dungeon")
@@ -250,13 +251,20 @@ def begin():
         begin()
 
     elif option1 == "c":
+        # show items in the inventory and then reloop the function
         inventory()
         begin()
 
     elif option1 == "q":
+        # allows the players to quit the fame
         fin()
 
     else:
+        """
+        This function runs if player inputs wrong option
+        Function runs validation() to inform player to reinput
+        Players are then reprompted with previous options
+        """
         validation()
         print("What will you do?")
         print()
@@ -332,13 +340,16 @@ def firstMove():
         take()
 
     elif option2a == "c":
+        # Shows items in the inventory and then reloops function
         inventory()
         firstmove()
 
     elif option2a == "q":
+        # allows players to quit the game
         fin()
 
     else:
+        # runs validation function and then reloops function
         validation()
         firstMove()
 
@@ -346,6 +357,7 @@ def firstMove():
 def take():
     """
     This function allows the user to take the torch and decide to stay or move
+    This function also adds the torch to the inventory list
     """
     inventorylist.append('torch')
     print()
@@ -403,30 +415,40 @@ def take():
             fin()
 
         elif wait == "c":
+            # show users items in inventory and reloop function
             inventory()
             take()
 
         elif wait == "q":
+            # allow players to quit the game
             fin()
 
         else:
+            # inform player of wrong input and reloop function
             validation()
             take()
 
     elif option3 == "c":
+        # show users items in inventory and reloop function
         inventory()
         take()
 
     elif wait == "q":
+        # allow players to quit the game
         fin()
 
     else:
+        # inform player of wrong input and reloop function
         validation()
         take()
 
 
 def search():
-    # this function allows the player to search the room
+    """
+    This function allows the player to search the room
+    Players will find a set of keys on the wall
+    Keys are then appended to inventory list
+    """
     print("You shuffle across the room")
     print()
     time.sleep(a)
