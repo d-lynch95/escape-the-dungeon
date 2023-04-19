@@ -871,23 +871,34 @@ def spear():
     spear_gang = input("'Stay' or 'throw' your spear at the goblin? \n ").lower().strip()
 
     if spear_gang == "stay":
+        # run stay_death function and player is killed
         stay_death()
 
     elif spear_gang == "throw":
+        # take players to final input and ultimate victory
         impale()
 
     elif spear_gang == "c":
+        # check inventory and then rerun the function
         inventory()
         spear()
 
     elif spear_gang == "q":
+        # ends the game
         fin()
 
     else:
-        print("input validation")
+        # reprompt input from the user and rerun spear function
+        validation()
+        spear()
 
 
 def impale():
+    """
+    This function ends the game.
+    The player is victorious.
+    Well done
+    """
     print()
     time.sleep(b)
     print("You weigh the spear in your hand")
