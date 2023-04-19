@@ -8,7 +8,7 @@ import os
 
 import pyfiglet
 import colorama
-from colorama import Fore,Back,Style
+from colorama import Fore, Back, Style
 colorama.init(autoreset=True)
 
 
@@ -214,7 +214,7 @@ def instructions():
 def begin():
     """
     This function sets the scene for the players.
-    Players will then input their first decision 
+    Players will then input their first decision
     """
     clearConsole()
     print("You wake up in a dark decrepid dungeon")
@@ -869,7 +869,7 @@ def spear():
     print("What will you do? ")
     time.sleep(b)
     print()
-    spear_gang = input("'Stay' or 'throw' your spear at the goblin? \n ").lower().strip()
+    spear_gang = input("'Stay' or 'throw' your spear ? \n").lower().strip()
 
     if spear_gang == "stay":
         # run stay_death function and player is killed
