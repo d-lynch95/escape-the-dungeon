@@ -518,7 +518,11 @@ def search():
 
 
 def keyWest():
-    # player will unlock the shackles from their feet in this formula
+    """
+    This function allows players to unlock their shackles
+    Players can now move freely
+    Players will be given option to search or rest
+    """
     print()
     print("You take the keys and crouch down")
     print()
@@ -573,15 +577,21 @@ def keyWest():
         fin()
 
     elif choice == "c":
+        # check inventory and then reloop function
         inventory()
         keyWest()
 
     elif choice == "q":
+        # allows players to end the game and exit
         fin()
 
 
 def findChest():
-    # This function progresses the storyline as player finds a chest
+    """
+    Player finds a chest in this function
+    Player has option to open the chest,
+    or investigate a noise behind them.
+    """
     print()
     print("With your new found freedom...")
     time.sleep(a)
@@ -598,22 +608,27 @@ def findChest():
     print("As you approach the chest you hear a noise behind you")
     print()
     time.sleep(c)
-    check = input("Do you 'open' the chest or 'investigate' the noise?   \n")
+    check = input("Do you 'open' the chest or 'investigate' the noise?  \n")
 
     if check == 'open':
+        # takes players to open chest function where they find weapons
         open_chest()
 
     elif check == 'investigate':
+        # allows user to investigate noise but they're killed
         investigate()
 
     elif check == "c":
+        # opens inventory and then reloops function
         inventory()
         findChest()
 
     elif check == "q":
+        # ends game and allows player to exit
         fin()
 
     else:
+        # reprompt input and rerun function
         validation()
         findChest()
 
