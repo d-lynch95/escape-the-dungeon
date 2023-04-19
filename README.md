@@ -296,6 +296,8 @@ The live link can be found here - https://escape-the-dungeon.herokuapp.com/
 
 - The advice on pyfiglet installation came from [CodeSnail](https://www.codesnail.com/text-to-ascii-art-using-python/)
 
+- I used the following youtube video for help with colorama installation [Youtube](https://www.google.com/search?q=how+to+use+colorama+in+python&rlz=1C5CHFA_enTH1020IE1025&oq=how+to+use+colorama+in+python&aqs=chrome..69i57j0i390i650l3.6370j0j4&sourceid=chrome&ie=UTF-8#kpvalbx=_KjQ_ZO-dAry9juMP5_qe4AI_32)
+
 - I used countless stack overflow entries to help me to solve minor python related bugs.
 
 - I used the following projects as inspiration for my project. [Zombie Survival](https://github.com/JamesFahey/zombie-survival/blob/main/run.py)
