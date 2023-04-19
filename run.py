@@ -434,7 +434,7 @@ def take():
         inventory()
         take()
 
-    elif wait == "q":
+    elif option3 == "q":
         # allow players to quit the game
         fin()
 
