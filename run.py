@@ -556,7 +556,12 @@ def keyWest():
     print()
     time.sleep(b)
     print("It feels good to be partly free")
-    choice = input("What will you do next? 'search' the room or 'rest'? \n")
+    time.sleep(b)
+    print()
+    print("What will you do next?")
+    time.sleep(b)
+    print()
+    choice = input("'Search' the room or 'rest'? \n").lower().strip()
 
     if choice == 'search':
         # player can search the room and are brought to findChest function
