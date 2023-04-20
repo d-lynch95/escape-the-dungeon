@@ -170,13 +170,13 @@ This game flow and logic was designed using lucidchart. This was the first time 
 
 - I faced a lot of issues with using If Else statements and opted instead to use smaller functions such as the fin() and validation() functions as this allowed me to reuse code where possible.
 
-- I faced an issue with the heroku application freezing during run throughs. I opted to delete the application that I had previously made and redeploy it manually through heroku.
+- I faced an issue with the heroku application freezing during run throughs. I opted to delete the application that I had previously made and redeploy it manually through heroku. 
 
 - When using colorama all of the text was changing colour as opposed to just the text I had selected. This was corrected using the autoreset option.
 
 ### User Testing
 
-The site was tested on chrome, safari and opera browsers on desktop without any issues. The site was tested on desktop, tablet and mobile using chrome developer tools. The actual tablet testing was done on an ipad. The mobile testing was done on an iphone 12 using the safari browser and also tested on android devices OnePlus 7 and OnePlus Nord CE on chrome browsers. The site was also tested on a samsung phone using the opera browser. None of the tablet or mobile devices presented any issues.
+The application was tested on a macbook air using the google chrome browser.
 
 
 ### Validator Testing 
@@ -189,31 +189,11 @@ The site was tested on chrome, safari and opera browsers on desktop without any 
 
 #### Functional Testing 
 
-We first tested the input box to see if the values were recognised and input correctly.
+I tested each of the pathways through the game individually to make sure there were no dead ends of any issues.
+I ran through all of the functions and tested each option to record whether there were any issues. All of the functions passed the manual user testing and there were no issues with the code.
 
-| Input Box        |   PASS/FAIL   |
-| -----------      | -----------   |
-| Monday           |  PASS         |
-| Tuesday          |  PASS         |
-| Wednesday        |  PASS         |
-| Thursday         |  PASS         |
-| Friday.          | Pass          |
-| Saturday.        | Pass          |
-| Sunday.          | Pass          |
-
-All of these input boxes worked as expected and accepted the values without any issues.
-
-The commission made inout box was also tested and this did not present any issues.
-
-The checkbox was also tested on multiple devices and this did not present any issues. At the moment the box is automatically checked as the majority of employees are on working holiday visas however as more local employees come aboard we will look to add functionality to account for tax residents and the tax brackets they fall into.
-
-We tested the two buttons on the index page. The calculate now button calls the calculateAll function. This worked without any errors.
-
-On the 404 page we tested the clickable link in the text. This link on the 404 page then took us back to the homepage.
-
-We ran a lot of tests on the different formulas. These tests are outlined in the below table.
-
-![Testing functions](assets/images/testingfunctions/functionTest.png)
+![Testing functions](assets/features/functiontest1.png)
+![Testing functions](assets/features/functionTest2.png)
 
 
 
