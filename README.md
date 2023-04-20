@@ -119,37 +119,21 @@ This game flow and logic was designed using lucidchart. This was the first time 
 
 ![List](assets/features/list.png)
 
-- __Commission and Tax section__
+- __Input__
 
-  - This section will allow the user to input the total amount of commission earned.
-  - This figure will then be taken into multiple formulas and used to calculate commission per hour and the commission bonuses.
-  - The tax section contains a simple checkbox. As most employees are on working holiday visas the box is automatically checked
-  - The information gathered at this section will help to decide whether to base employees tax calculations off a 15% or a 35% tax bracket.
+  - This game relies hevily on user input in order to progress the story.
+  - This was added to the game using input boxes at each decision point
 
-
-![Commission](assets/images/features/commission.webp)
+![Input](assets/features/input.png)
 
 
-- __Pay breakdown section__
+- __Functions__
 
-  - This section allows the user to view their over all pay and the precise breakdown of their pay.
-  - This section shows how much the user made for working each day. Weekday pay is 29.23 per hour, Saturday pay is 35.07 and Sunday pay is 40.92 per hour. The user can then see the total pay per week.
-  - The next section shows the users tax paid per week. This is calculated using a formula depending whether a user is on a working holiday visa or not.
-  - The next section shows the user their total hours worked. User can also see their total commission made for the company.
-  - The commission per hour section is then broken down by dividing commission by number of hours worked.
-  - The bonus is calculated by using the formula that includes the different cph bands.
-  - This bonus is then multiplied by the hours worked to calculate total bonus.
-  - The total bonus is calculated by adding total weekly wage, deducting tax paid and adding the bonus.
-
+  - This project reused a lot of sections of code. In order to save time and space functions were used heavily.
+  - The main functions used regularly were fin() which allows the user to exit the game, validate() which validates user input and reprompts them if input is not valid and inventory() which allows the user to print the list containing their inventory items.
   
-
-![Pay breakdown](assets/images/features/breakdown.webp)
-
- 
-- __Error 404 Page__
-    - This page will help the user navigate back to the home page if there is any typo or broken links in the site. This page will contain a clickable link to return home.
-
-![Error 404](assets/images/features/error404.png)
+  ![Functions](assets/features/function.png)
+  
 
 ### Features Left to Implement
 
