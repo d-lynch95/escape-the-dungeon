@@ -591,6 +591,11 @@ def keyWest():
         # allows players to end the game and exit
         fin()
 
+    else:
+        # reprompt input and rerun function
+        validation()
+        keyWest()
+
 
 def findChest():
     """
