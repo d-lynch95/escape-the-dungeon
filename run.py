@@ -3,12 +3,11 @@
 # Write your code to expect a terminal of 80 characters wide and 24 rows high
 
 import time
-import random
 import os
 
 import pyfiglet
 import colorama
-from colorama import Fore, Back, Style
+from colorama import Fore, 
 colorama.init(autoreset=True)
 
 
