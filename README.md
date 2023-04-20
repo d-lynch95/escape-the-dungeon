@@ -104,20 +104,20 @@ This game flow and logic was designed using lucidchart. This was the first time 
 
 ![Title Graphic](assets/features/ASCII-text.webp)
 
-- __Instructions section__
+- __External Libraries__
 
-  - The instuctions section includes four very simple steps for users to follow in order to use the tool.
-  - This section is very easy to follow and allows users to use the tool with minimal effort on their end.
+  - This project used several external libraries
+  - We imported the time and os modules, we also imported colorama and pyfiglet.
+  
+  ![Libraries](assets/features/import.png)
 
-![Instructions](assets/images/features/instructions.webp)
+- __List__
 
-- __Hours worked section__
+  - This program includes a list which players use as an inventory
+  - As players pick up items during their journey they are added to the inventory
+  - Players can easily cycle through their inventory using keyboard prompts
 
-  - The hours worked section contains the names of the weekdays and corresponding input boxes.
-  - The input boxes take number inputs and have a maximum of 8 hours. This is due to casual contract workers not being allowed to work more than 8 hours per day.
-  - The hours are stepped in 0.5 intervals as this is how pay is calculated.
-
-![Hours Worked](assets/images/features/hoursworked.webp)
+![List](assets/features/list.png)
 
 - __Commission and Tax section__
 
