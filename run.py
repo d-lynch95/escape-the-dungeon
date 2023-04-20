@@ -7,7 +7,7 @@ import os
 
 import pyfiglet
 import colorama
-from colorama import Fore, 
+from colorama import Fore
 colorama.init(autoreset=True)
 
 
